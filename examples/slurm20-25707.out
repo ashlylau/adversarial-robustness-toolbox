@@ -1,0 +1,2531 @@
+Python 2.7.18
+Python 3.8.5
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': True, 'sampling_type': 'none', 'attack_model': 'rf', 'sampling_ratio': 0.5}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.6165, Accuracy: 12558/16281 (77.1329%, ROC AUC: 59.3305%)
+
+Epoch  2 :
+
+Test set: Average loss: 0.6272, Accuracy: 12871/16281 (79.0553%, ROC AUC: 60.3735%)
+
+Epoch  3 :
+
+Test set: Average loss: 0.6127, Accuracy: 12955/16281 (79.5713%, ROC AUC: 62.0403%)
+
+Epoch  4 :
+
+Test set: Average loss: 0.5948, Accuracy: 12875/16281 (79.0799%, ROC AUC: 59.1864%)
+
+Epoch  5 :
+
+Test set: Average loss: 0.5519, Accuracy: 12930/16281 (79.4177%, ROC AUC: 58.7071%)
+
+Epoch  6 :
+
+Test set: Average loss: 0.5319, Accuracy: 12961/16281 (79.6081%, ROC AUC: 59.0383%)
+
+Epoch  7 :
+
+Test set: Average loss: 0.5955, Accuracy: 12910/16281 (79.2949%, ROC AUC: 59.0397%)
+
+Epoch  8 :
+
+Test set: Average loss: 0.5205, Accuracy: 13016/16281 (79.9459%, ROC AUC: 61.1451%)
+
+Epoch  9 :
+
+Test set: Average loss: 0.6054, Accuracy: 12896/16281 (79.2089%, ROC AUC: 60.7884%)
+
+Epoch  10 :
+
+Test set: Average loss: 0.5342, Accuracy: 12921/16281 (79.3624%, ROC AUC: 58.9403%)
+
+Epoch  11 :
+
+Test set: Average loss: 0.5421, Accuracy: 12919/16281 (79.3502%, ROC AUC: 58.9502%)
+
+Epoch  12 :
+
+Test set: Average loss: 0.6750, Accuracy: 12834/16281 (78.8281%, ROC AUC: 62.2182%)
+
+Epoch  13 :
+
+Test set: Average loss: 0.5129, Accuracy: 12996/16281 (79.8231%, ROC AUC: 62.2500%)
+
+Epoch  14 :
+
+Test set: Average loss: 0.4892, Accuracy: 13088/16281 (80.3882%, ROC AUC: 61.8477%)
+
+Epoch  15 :
+
+Test set: Average loss: 0.4957, Accuracy: 13037/16281 (80.0749%, ROC AUC: 62.3161%)
+
+Epoch  16 :
+
+Test set: Average loss: 0.5848, Accuracy: 12907/16281 (79.2765%, ROC AUC: 59.6563%)
+
+Epoch  17 :
+
+Test set: Average loss: 0.6787, Accuracy: 12900/16281 (79.2335%, ROC AUC: 60.8673%)
+
+Epoch  18 :
+
+Test set: Average loss: 0.4827, Accuracy: 13076/16281 (80.3145%, ROC AUC: 60.2729%)
+
+Epoch  19 :
+
+Test set: Average loss: 0.4763, Accuracy: 13079/16281 (80.3329%, ROC AUC: 60.1144%)
+
+Epoch  20 :
+
+Test set: Average loss: 0.4859, Accuracy: 13013/16281 (79.9275%, ROC AUC: 59.0049%)
+
+Epsilon = -1, model accuracy: 0.7992752287943001, roc auc: 0.5900491604706408
+Random forest model attack results: 
+train acc: 0.873007585762108
+test acc: 0.30471101283704927
+test acc majority: 0.6004678970626462
+test acc minority: 0.39953210293735375
+total acc: 0.6835715163179231
+experiment_number: 58
+['none', 0.5, -1, 0.7992752287943001, 0.5900491604706408, 0.39953210293735375, 0.6004678970626462, 0.30471101283704927]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/none/test_results-58.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'none', 'attack_model': 'rf', 'sampling_ratio': 0.5}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 2.0670, Accuracy: 12112/16281 (74.3935%, ROC AUC: 52.1135%)
+
+	Train Epoch: 1 	Loss: 2.067031 Acc@1: 0.743935 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 1.6965, Accuracy: 12339/16281 (75.7877%, ROC AUC: 55.8728%)
+
+	Train Epoch: 2 	Loss: 1.881777 Acc@1: 0.750906 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 1.0719, Accuracy: 12673/16281 (77.8392%, ROC AUC: 60.2599%)
+
+	Train Epoch: 3 	Loss: 1.611814 Acc@1: 0.760068 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 1.6459, Accuracy: 12200/16281 (74.9340%, ROC AUC: 52.1980%)
+
+	Train Epoch: 4 	Loss: 1.620343 Acc@1: 0.757386 (ε = 0.77, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 1.4066, Accuracy: 12330/16281 (75.7324%, ROC AUC: 54.1305%)
+
+	Train Epoch: 5 	Loss: 1.577597 Acc@1: 0.757374 (ε = 0.80, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 1.6981, Accuracy: 12161/16281 (74.6944%, ROC AUC: 53.2175%)
+
+	Train Epoch: 6 	Loss: 1.597685 Acc@1: 0.755635 (ε = 0.83, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 1.9767, Accuracy: 12204/16281 (74.9585%, ROC AUC: 51.9985%)
+
+	Train Epoch: 7 	Loss: 1.651831 Acc@1: 0.754771 (ε = 0.86, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.9570, Accuracy: 12734/16281 (78.2139%, ROC AUC: 60.1370%)
+
+	Train Epoch: 8 	Loss: 1.564973 Acc@1: 0.758192 (ε = 0.90, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.9610, Accuracy: 12726/16281 (78.1647%, ROC AUC: 58.9285%)
+
+	Train Epoch: 9 	Loss: 1.497861 Acc@1: 0.760798 (ε = 0.93, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 1.2524, Accuracy: 12230/16281 (75.1182%, ROC AUC: 52.1839%)
+
+	Train Epoch: 10 	Loss: 1.473313 Acc@1: 0.759837 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.9620, Accuracy: 12756/16281 (78.3490%, ROC AUC: 61.6262%)
+
+	Train Epoch: 11 	Loss: 1.426826 Acc@1: 0.761987 (ε = 0.99, δ = 2e-05) for α = 17.0
+Epoch  12 :
+
+Test set: Average loss: 0.8428, Accuracy: 12742/16281 (78.2630%, ROC AUC: 60.1871%)
+
+	Train Epoch: 12 	Loss: 1.378154 Acc@1: 0.763707 (ε = 1.02, δ = 2e-05) for α = 17.0
+Epoch  13 :
+
+Test set: Average loss: 0.8477, Accuracy: 12643/16281 (77.6549%, ROC AUC: 58.5319%)
+
+	Train Epoch: 13 	Loss: 1.337348 Acc@1: 0.764695 (ε = 1.05, δ = 2e-05) for α = 17.0
+Epoch  14 :
+
+Test set: Average loss: 1.1111, Accuracy: 12349/16281 (75.8491%, ROC AUC: 55.0599%)
+
+	Train Epoch: 14 	Loss: 1.321186 Acc@1: 0.764252 (ε = 1.08, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.9785, Accuracy: 12728/16281 (78.1770%, ROC AUC: 61.6933%)
+
+	Train Epoch: 15 	Loss: 1.298342 Acc@1: 0.765420 (ε = 1.11, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.9599, Accuracy: 12728/16281 (78.1770%, ROC AUC: 61.7471%)
+
+	Train Epoch: 16 	Loss: 1.277187 Acc@1: 0.766442 (ε = 1.14, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.9035, Accuracy: 12538/16281 (77.0100%, ROC AUC: 56.2958%)
+
+	Train Epoch: 17 	Loss: 1.255208 Acc@1: 0.766657 (ε = 1.17, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8583, Accuracy: 12742/16281 (78.2630%, ROC AUC: 61.0491%)
+
+	Train Epoch: 18 	Loss: 1.233159 Acc@1: 0.767544 (ε = 1.20, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 1.4195, Accuracy: 12198/16281 (74.9217%, ROC AUC: 50.8789%)
+
+	Train Epoch: 19 	Loss: 1.242965 Acc@1: 0.766580 (ε = 1.22, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.8830, Accuracy: 12706/16281 (78.0419%, ROC AUC: 59.2162%)
+
+	Train Epoch: 20 	Loss: 1.224967 Acc@1: 0.767272 (ε = 1.25, δ = 2e-05) for α = 17.0
+Epsilon = 1.2535843068827168, model accuracy: 0.7804188931883791, roc auc: 0.5921621448693895
+Random forest model attack results: 
+train acc: 0.8677866158901754
+test acc: 0.30434248510533746
+test acc majority: 0.5947491551858591
+test acc minority: 0.40525084481414086
+total acc: 0.679968060275992
+experiment_number: 59
+['none', 0.5, 1.2535843068827168, 0.7804188931883791, 0.5921621448693895, 0.40525084481414086, 0.5947491551858591, 0.30434248510533746]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/none/test_results-59.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'over', 'attack_model': 'rf', 'sampling_ratio': 0.35}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing oversampling at 0.35
+X_train: (33372, 5), y_train: (33372,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 1.0677, Accuracy: 12905/16281 (79.2642%, ROC AUC: 60.9323%)
+
+	Train Epoch: 1 	Loss: 1.067718 Acc@1: 0.792642 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.9642, Accuracy: 12876/16281 (79.0861%, ROC AUC: 60.9324%)
+
+	Train Epoch: 2 	Loss: 1.015959 Acc@1: 0.791751 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.9675, Accuracy: 12877/16281 (79.0922%, ROC AUC: 61.4842%)
+
+	Train Epoch: 3 	Loss: 0.999811 Acc@1: 0.791475 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.9085, Accuracy: 12959/16281 (79.5958%, ROC AUC: 61.2123%)
+
+	Train Epoch: 4 	Loss: 0.976980 Acc@1: 0.792596 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.9702, Accuracy: 12898/16281 (79.2212%, ROC AUC: 61.9548%)
+
+	Train Epoch: 5 	Loss: 0.975619 Acc@1: 0.792519 (ε = 0.79, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.9228, Accuracy: 12922/16281 (79.3686%, ROC AUC: 60.2913%)
+
+	Train Epoch: 6 	Loss: 0.966811 Acc@1: 0.792713 (ε = 0.82, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.9185, Accuracy: 12874/16281 (79.0738%, ROC AUC: 61.1668%)
+
+	Train Epoch: 7 	Loss: 0.959912 Acc@1: 0.792431 (ε = 0.85, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.9062, Accuracy: 12868/16281 (79.0369%, ROC AUC: 61.3852%)
+
+	Train Epoch: 8 	Loss: 0.953202 Acc@1: 0.792173 (ε = 0.89, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.8954, Accuracy: 12879/16281 (79.1045%, ROC AUC: 61.0343%)
+
+	Train Epoch: 9 	Loss: 0.946779 Acc@1: 0.792048 (ε = 0.92, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.8878, Accuracy: 12874/16281 (79.0738%, ROC AUC: 60.7358%)
+
+	Train Epoch: 10 	Loss: 0.940881 Acc@1: 0.791917 (ε = 0.95, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 1.0415, Accuracy: 12846/16281 (78.9018%, ROC AUC: 62.0151%)
+
+	Train Epoch: 11 	Loss: 0.950033 Acc@1: 0.791653 (ε = 0.98, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.9923, Accuracy: 12798/16281 (78.6070%, ROC AUC: 59.9094%)
+
+	Train Epoch: 12 	Loss: 0.953551 Acc@1: 0.791188 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.8791, Accuracy: 12876/16281 (79.0861%, ROC AUC: 60.3577%)
+
+	Train Epoch: 13 	Loss: 0.947826 Acc@1: 0.791163 (ε = 1.04, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 1.0592, Accuracy: 12813/16281 (78.6991%, ROC AUC: 61.4424%)
+
+	Train Epoch: 14 	Loss: 0.955778 Acc@1: 0.790865 (ε = 1.07, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.9521, Accuracy: 12894/16281 (79.1966%, ROC AUC: 61.8219%)
+
+	Train Epoch: 15 	Loss: 0.955533 Acc@1: 0.790938 (ε = 1.10, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 2.3350, Accuracy: 12447/16281 (76.4511%, ROC AUC: 52.7601%)
+
+	Train Epoch: 16 	Loss: 1.041748 Acc@1: 0.789287 (ε = 1.13, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 1.0070, Accuracy: 12559/16281 (77.1390%, ROC AUC: 54.7549%)
+
+	Train Epoch: 17 	Loss: 1.039704 Acc@1: 0.788234 (ε = 1.15, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.9680, Accuracy: 12878/16281 (79.0983%, ROC AUC: 62.0270%)
+
+	Train Epoch: 18 	Loss: 1.035723 Acc@1: 0.788387 (ε = 1.18, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.9342, Accuracy: 12633/16281 (77.5935%, ROC AUC: 55.4835%)
+
+	Train Epoch: 19 	Loss: 1.030382 Acc@1: 0.787731 (ε = 1.21, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.9126, Accuracy: 12915/16281 (79.3256%, ROC AUC: 61.6729%)
+
+	Train Epoch: 20 	Loss: 1.024491 Acc@1: 0.788007 (ε = 1.24, δ = 2e-05) for α = 17.0
+Epsilon = 1.2376892455949124, model accuracy: 0.7932559425096739, roc auc: 0.6167291444371887
+Random forest model attack results: 
+train acc: 0.8663849934076471
+test acc: 0.3139242061298446
+test acc majority: 0.5791525864309852
+test acc minority: 0.4208474135690148
+total acc: 0.6852355346101947
+experiment_number: 54
+['over', 0.35, 1.2376892455949124, 0.7932559425096739, 0.6167291444371887, 0.4208474135690148, 0.5791525864309852, 0.3139242061298446]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/over/test_results-54.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'over', 'attack_model': 'rf', 'sampling_ratio': 0.4}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing oversampling at 0.4
+X_train: (34608, 5), y_train: (34608,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 15.4532, Accuracy: 12789/16281 (78.5517%, ROC AUC: 62.0463%)
+
+	Train Epoch: 1 	Loss: 15.453200 Acc@1: 0.785517 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 7.0174, Accuracy: 12746/16281 (78.2876%, ROC AUC: 61.8913%)
+
+	Train Epoch: 2 	Loss: 11.235278 Acc@1: 0.784196 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 1.0484, Accuracy: 12373/16281 (75.9966%, ROC AUC: 53.1630%)
+
+	Train Epoch: 3 	Loss: 7.839664 Acc@1: 0.776119 (ε = 0.72, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.8345, Accuracy: 12798/16281 (78.6070%, ROC AUC: 62.0825%)
+
+	Train Epoch: 4 	Loss: 6.088382 Acc@1: 0.778607 (ε = 0.75, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.8215, Accuracy: 12863/16281 (79.0062%, ROC AUC: 62.1732%)
+
+	Train Epoch: 5 	Loss: 5.035001 Acc@1: 0.780898 (ε = 0.78, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.7923, Accuracy: 12706/16281 (78.0419%, ROC AUC: 58.8121%)
+
+	Train Epoch: 6 	Loss: 4.327883 Acc@1: 0.780818 (ε = 0.81, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.8283, Accuracy: 12815/16281 (78.7114%, ROC AUC: 62.1239%)
+
+	Train Epoch: 7 	Loss: 3.827941 Acc@1: 0.781718 (ε = 0.84, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.7347, Accuracy: 12891/16281 (79.1782%, ROC AUC: 61.7740%)
+
+	Train Epoch: 8 	Loss: 3.441286 Acc@1: 0.782976 (ε = 0.87, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.7999, Accuracy: 12870/16281 (79.0492%, ROC AUC: 62.2463%)
+
+	Train Epoch: 9 	Loss: 3.147802 Acc@1: 0.783811 (ε = 0.90, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.7827, Accuracy: 12844/16281 (78.8895%, ROC AUC: 62.0699%)
+
+	Train Epoch: 10 	Loss: 2.911289 Acc@1: 0.784319 (ε = 0.93, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.7850, Accuracy: 12753/16281 (78.3306%, ROC AUC: 58.4623%)
+
+	Train Epoch: 11 	Loss: 2.717991 Acc@1: 0.784227 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.8599, Accuracy: 12810/16281 (78.6807%, ROC AUC: 62.1217%)
+
+	Train Epoch: 12 	Loss: 2.563154 Acc@1: 0.784442 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.9333, Accuracy: 12778/16281 (78.4841%, ROC AUC: 61.9392%)
+
+	Train Epoch: 13 	Loss: 2.437779 Acc@1: 0.784473 (ε = 1.02, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.7993, Accuracy: 12870/16281 (79.0492%, ROC AUC: 62.1565%)
+
+	Train Epoch: 14 	Loss: 2.320742 Acc@1: 0.784903 (ε = 1.05, δ = 2e-05) for α = 18.0
+Epoch  15 :
+
+Test set: Average loss: 0.8181, Accuracy: 12849/16281 (78.9202%, ROC AUC: 62.1618%)
+
+	Train Epoch: 15 	Loss: 2.220567 Acc@1: 0.785189 (ε = 1.08, δ = 2e-05) for α = 18.0
+Epoch  16 :
+
+Test set: Average loss: 0.8211, Accuracy: 12850/16281 (78.9264%, ROC AUC: 62.2197%)
+
+	Train Epoch: 16 	Loss: 2.133103 Acc@1: 0.785444 (ε = 1.11, δ = 2e-05) for α = 18.0
+Epoch  17 :
+
+Test set: Average loss: 0.7814, Accuracy: 12911/16281 (79.3010%, ROC AUC: 61.9801%)
+
+	Train Epoch: 17 	Loss: 2.053589 Acc@1: 0.785889 (ε = 1.14, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.7860, Accuracy: 12883/16281 (79.1290%, ROC AUC: 62.1189%)
+
+	Train Epoch: 18 	Loss: 1.983168 Acc@1: 0.786189 (ε = 1.16, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.8971, Accuracy: 12782/16281 (78.5087%, ROC AUC: 62.0002%)
+
+	Train Epoch: 19 	Loss: 1.926006 Acc@1: 0.786131 (ε = 1.19, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.8682, Accuracy: 12806/16281 (78.6561%, ROC AUC: 62.0697%)
+
+	Train Epoch: 20 	Loss: 1.873116 Acc@1: 0.786153 (ε = 1.22, δ = 2e-05) for α = 17.0
+Epsilon = 1.2168531562970397, model accuracy: 0.7865610220502426, roc auc: 0.6206973924312823
+Random forest model attack results: 
+train acc: 0.8693654646324549
+test acc: 0.3137399422639887
+test acc majority: 0.5386015076683129
+test acc minority: 0.46139849233168706
+total acc: 0.6916032934425907
+experiment_number: 55
+['over', 0.4, 1.2168531562970397, 0.7865610220502426, 0.6206973924312823, 0.46139849233168706, 0.5386015076683129, 0.3137399422639887]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/over/test_results-55.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'over', 'attack_model': 'rf', 'sampling_ratio': 0.6}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing oversampling at 0.6
+X_train: (39552, 5), y_train: (39552,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.8359, Accuracy: 12924/16281 (79.3809%, ROC AUC: 62.0054%)
+
+	Train Epoch: 1 	Loss: 0.835932 Acc@1: 0.793809 (ε = 0.64, δ = 2e-05) for α = 19.0
+Epoch  2 :
+
+Test set: Average loss: 0.7547, Accuracy: 12901/16281 (79.2396%, ROC AUC: 62.0656%)
+
+	Train Epoch: 2 	Loss: 0.795302 Acc@1: 0.793102 (ε = 0.67, δ = 2e-05) for α = 19.0
+Epoch  3 :
+
+Test set: Average loss: 0.8198, Accuracy: 12905/16281 (79.2642%, ROC AUC: 62.1176%)
+
+	Train Epoch: 3 	Loss: 0.803469 Acc@1: 0.792949 (ε = 0.71, δ = 2e-05) for α = 19.0
+Epoch  4 :
+
+Test set: Average loss: 0.8905, Accuracy: 12926/16281 (79.3932%, ROC AUC: 62.0494%)
+
+	Train Epoch: 4 	Loss: 0.825233 Acc@1: 0.793195 (ε = 0.74, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.8641, Accuracy: 12877/16281 (79.0922%, ROC AUC: 62.2564%)
+
+	Train Epoch: 5 	Loss: 0.833002 Acc@1: 0.792740 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.8607, Accuracy: 12898/16281 (79.2212%, ROC AUC: 62.1344%)
+
+	Train Epoch: 6 	Loss: 0.837614 Acc@1: 0.792652 (ε = 0.79, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.7729, Accuracy: 12900/16281 (79.2335%, ROC AUC: 62.1155%)
+
+	Train Epoch: 7 	Loss: 0.828376 Acc@1: 0.792607 (ε = 0.81, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.8728, Accuracy: 12873/16281 (79.0676%, ROC AUC: 62.2942%)
+
+	Train Epoch: 8 	Loss: 0.833924 Acc@1: 0.792365 (ε = 0.84, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.8390, Accuracy: 12918/16281 (79.3440%, ROC AUC: 62.1340%)
+
+	Train Epoch: 9 	Loss: 0.834490 Acc@1: 0.792485 (ε = 0.86, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.8158, Accuracy: 12918/16281 (79.3440%, ROC AUC: 62.2238%)
+
+	Train Epoch: 10 	Loss: 0.832625 Acc@1: 0.792580 (ε = 0.89, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 1.1757, Accuracy: 12826/16281 (78.7789%, ROC AUC: 62.2130%)
+
+	Train Epoch: 11 	Loss: 0.863809 Acc@1: 0.792145 (ε = 0.91, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.7277, Accuracy: 12984/16281 (79.7494%, ROC AUC: 61.8875%)
+
+	Train Epoch: 12 	Loss: 0.852463 Acc@1: 0.792591 (ε = 0.94, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.9589, Accuracy: 12864/16281 (79.0123%, ROC AUC: 62.2670%)
+
+	Train Epoch: 13 	Loss: 0.860651 Acc@1: 0.792401 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.8119, Accuracy: 12929/16281 (79.4116%, ROC AUC: 62.0884%)
+
+	Train Epoch: 14 	Loss: 0.857172 Acc@1: 0.792523 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  15 :
+
+Test set: Average loss: 0.9073, Accuracy: 12874/16281 (79.0738%, ROC AUC: 62.2713%)
+
+	Train Epoch: 15 	Loss: 0.860513 Acc@1: 0.792404 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  16 :
+
+Test set: Average loss: 0.9333, Accuracy: 12869/16281 (79.0431%, ROC AUC: 62.2961%)
+
+	Train Epoch: 16 	Loss: 0.865065 Acc@1: 0.792281 (ε = 1.04, δ = 2e-05) for α = 18.0
+Epoch  17 :
+
+Test set: Average loss: 0.7911, Accuracy: 12947/16281 (79.5221%, ROC AUC: 60.5804%)
+
+	Train Epoch: 17 	Loss: 0.860717 Acc@1: 0.792454 (ε = 1.06, δ = 2e-05) for α = 18.0
+Epoch  18 :
+
+Test set: Average loss: 0.8383, Accuracy: 12879/16281 (79.1045%, ROC AUC: 62.3273%)
+
+	Train Epoch: 18 	Loss: 0.859470 Acc@1: 0.792376 (ε = 1.09, δ = 2e-05) for α = 18.0
+Epoch  19 :
+
+Test set: Average loss: 0.8804, Accuracy: 12888/16281 (79.1598%, ROC AUC: 62.1750%)
+
+	Train Epoch: 19 	Loss: 0.860572 Acc@1: 0.792335 (ε = 1.11, δ = 2e-05) for α = 18.0
+Epoch  20 :
+
+Test set: Average loss: 0.7807, Accuracy: 12920/16281 (79.3563%, ROC AUC: 62.0881%)
+
+	Train Epoch: 20 	Loss: 0.856579 Acc@1: 0.792396 (ε = 1.14, δ = 2e-05) for α = 18.0
+Epsilon = 1.1353365863283504, model accuracy: 0.7935630489527671, roc auc: 0.620881218843446
+Random forest model attack results: 
+train acc: 0.8750758495145631
+test acc: 0.3212333394754622
+test acc majority: 0.5172861970366519
+test acc minority: 0.4827138029633481
+total acc: 0.7135744093994592
+experiment_number: 56
+['over', 0.6, 1.1353365863283504, 0.7935630489527671, 0.620881218843446, 0.4827138029633481, 0.5172861970366519, 0.3212333394754622]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/over/test_results-56.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'over', 'attack_model': 'rf', 'sampling_ratio': 0.8}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing oversampling at 0.8
+X_train: (44496, 5), y_train: (44496,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 1.1480, Accuracy: 12720/16281 (78.1279%, ROC AUC: 61.7868%)
+
+	Train Epoch: 1 	Loss: 1.148033 Acc@1: 0.781279 (ε = 0.63, δ = 2e-05) for α = 19.0
+Epoch  2 :
+
+Test set: Average loss: 1.1203, Accuracy: 12719/16281 (78.1217%, ROC AUC: 61.7828%)
+
+	Train Epoch: 2 	Loss: 1.134185 Acc@1: 0.781248 (ε = 0.65, δ = 2e-05) for α = 19.0
+Epoch  3 :
+
+Test set: Average loss: 1.2503, Accuracy: 12719/16281 (78.1217%, ROC AUC: 61.7828%)
+
+	Train Epoch: 3 	Loss: 1.172903 Acc@1: 0.781238 (ε = 0.67, δ = 2e-05) for α = 19.0
+Epoch  4 :
+
+Test set: Average loss: 1.3612, Accuracy: 12565/16281 (77.1758%, ROC AUC: 59.7538%)
+
+	Train Epoch: 4 	Loss: 1.219982 Acc@1: 0.778868 (ε = 0.70, δ = 2e-05) for α = 19.0
+Epoch  5 :
+
+Test set: Average loss: 1.1328, Accuracy: 12636/16281 (77.6119%, ROC AUC: 60.6858%)
+
+	Train Epoch: 5 	Loss: 1.202549 Acc@1: 0.778318 (ε = 0.72, δ = 2e-05) for α = 19.0
+Epoch  6 :
+
+Test set: Average loss: 1.1763, Accuracy: 12625/16281 (77.5444%, ROC AUC: 60.5428%)
+
+	Train Epoch: 6 	Loss: 1.198174 Acc@1: 0.777839 (ε = 0.75, δ = 2e-05) for α = 19.0
+Epoch  7 :
+
+Test set: Average loss: 1.6008, Accuracy: 12406/16281 (76.1993%, ROC AUC: 57.6867%)
+
+	Train Epoch: 7 	Loss: 1.255696 Acc@1: 0.775575 (ε = 0.77, δ = 2e-05) for α = 19.0
+Epoch  8 :
+
+Test set: Average loss: 1.1982, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 8 	Loss: 1.248504 Acc@1: 0.776304 (ε = 0.80, δ = 2e-05) for α = 19.0
+Epoch  9 :
+
+Test set: Average loss: 1.0916, Accuracy: 12719/16281 (78.1217%, ROC AUC: 61.7828%)
+
+	Train Epoch: 9 	Loss: 1.231066 Acc@1: 0.776850 (ε = 0.82, δ = 2e-05) for α = 19.0
+Epoch  10 :
+
+Test set: Average loss: 1.1088, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 10 	Loss: 1.218844 Acc@1: 0.777305 (ε = 0.84, δ = 2e-05) for α = 19.0
+Epoch  11 :
+
+Test set: Average loss: 1.0735, Accuracy: 12637/16281 (77.6181%, ROC AUC: 60.6808%)
+
+	Train Epoch: 11 	Loss: 1.205635 Acc@1: 0.777203 (ε = 0.87, δ = 2e-05) for α = 19.0
+Epoch  12 :
+
+Test set: Average loss: 1.0776, Accuracy: 12721/16281 (78.1340%, ROC AUC: 61.7908%)
+
+	Train Epoch: 12 	Loss: 1.194962 Acc@1: 0.777547 (ε = 0.89, δ = 2e-05) for α = 19.0
+Epoch  13 :
+
+Test set: Average loss: 1.0473, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 13 	Loss: 1.183605 Acc@1: 0.777844 (ε = 0.92, δ = 2e-05) for α = 19.0
+Epoch  14 :
+
+Test set: Average loss: 1.0389, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 14 	Loss: 1.173266 Acc@1: 0.778098 (ε = 0.94, δ = 2e-05) for α = 19.0
+Epoch  15 :
+
+Test set: Average loss: 1.2687, Accuracy: 12482/16281 (76.6661%, ROC AUC: 58.6568%)
+
+	Train Epoch: 15 	Loss: 1.179627 Acc@1: 0.777336 (ε = 0.97, δ = 2e-05) for α = 19.0
+Epoch  16 :
+
+Test set: Average loss: 1.1994, Accuracy: 12720/16281 (78.1279%, ROC AUC: 61.7868%)
+
+	Train Epoch: 16 	Loss: 1.180864 Acc@1: 0.777582 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  17 :
+
+Test set: Average loss: 0.8918, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 17 	Loss: 1.163859 Acc@1: 0.777807 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  18 :
+
+Test set: Average loss: 1.0490, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 18 	Loss: 1.157478 Acc@1: 0.778006 (ε = 1.03, δ = 2e-05) for α = 18.0
+Epoch  19 :
+
+Test set: Average loss: 0.8874, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 19 	Loss: 1.143264 Acc@1: 0.778185 (ε = 1.05, δ = 2e-05) for α = 18.0
+Epoch  20 :
+
+Test set: Average loss: 0.8751, Accuracy: 12722/16281 (78.1402%, ROC AUC: 61.7948%)
+
+	Train Epoch: 20 	Loss: 1.129858 Acc@1: 0.778346 (ε = 1.08, δ = 2e-05) for α = 18.0
+Epsilon = 1.076344453292244, model accuracy: 0.7814016338062773, roc auc: 0.61794840189265
+Random forest model attack results: 
+train acc: 0.8794723121179432
+test acc: 0.33560592101222286
+test acc majority: 0.47673511827397974
+test acc minority: 0.5232648817260203
+total acc: 0.7337808710531945
+experiment_number: 57
+['over', 0.8, 1.076344453292244, 0.7814016338062773, 0.61794840189265, 0.5232648817260203, 0.47673511827397974, 0.33560592101222286]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/over/test_results-57.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'over', 'attack_model': 'rf', 'sampling_ratio': 1.0}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing oversampling at 1.0
+X_train: (49440, 5), y_train: (49440,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.7207, Accuracy: 12797/16281 (78.6008%, ROC AUC: 61.7013%)
+
+	Train Epoch: 1 	Loss: 0.720700 Acc@1: 0.786008 (ε = 0.62, δ = 2e-05) for α = 20.0
+Epoch  2 :
+
+Test set: Average loss: 0.8911, Accuracy: 12747/16281 (78.2937%, ROC AUC: 61.8684%)
+
+	Train Epoch: 2 	Loss: 0.805913 Acc@1: 0.784473 (ε = 0.64, δ = 2e-05) for α = 19.0
+Epoch  3 :
+
+Test set: Average loss: 0.6914, Accuracy: 12883/16281 (79.1290%, ROC AUC: 62.4063%)
+
+	Train Epoch: 3 	Loss: 0.767756 Acc@1: 0.786745 (ε = 0.66, δ = 2e-05) for α = 19.0
+Epoch  4 :
+
+Test set: Average loss: 0.8665, Accuracy: 12828/16281 (78.7912%, ROC AUC: 62.2211%)
+
+	Train Epoch: 4 	Loss: 0.792439 Acc@1: 0.787037 (ε = 0.69, δ = 2e-05) for α = 19.0
+Epoch  5 :
+
+Test set: Average loss: 0.7478, Accuracy: 12900/16281 (79.2335%, ROC AUC: 62.4297%)
+
+	Train Epoch: 5 	Loss: 0.783509 Acc@1: 0.788097 (ε = 0.71, δ = 2e-05) for α = 19.0
+Epoch  6 :
+
+Test set: Average loss: 0.8598, Accuracy: 12798/16281 (78.6070%, ROC AUC: 62.0914%)
+
+	Train Epoch: 6 	Loss: 0.796231 Acc@1: 0.787759 (ε = 0.73, δ = 2e-05) for α = 19.0
+Epoch  7 :
+
+Test set: Average loss: 0.7017, Accuracy: 12914/16281 (79.3195%, ROC AUC: 62.4501%)
+
+	Train Epoch: 7 	Loss: 0.782724 Acc@1: 0.788535 (ε = 0.75, δ = 2e-05) for α = 19.0
+Epoch  8 :
+
+Test set: Average loss: 0.7620, Accuracy: 12879/16281 (79.1045%, ROC AUC: 62.3722%)
+
+	Train Epoch: 8 	Loss: 0.780137 Acc@1: 0.788849 (ε = 0.77, δ = 2e-05) for α = 19.0
+Epoch  9 :
+
+Test set: Average loss: 0.7671, Accuracy: 12861/16281 (78.9939%, ROC AUC: 62.3448%)
+
+	Train Epoch: 9 	Loss: 0.778689 Acc@1: 0.788970 (ε = 0.79, δ = 2e-05) for α = 19.0
+Epoch  10 :
+
+Test set: Average loss: 1.0211, Accuracy: 12770/16281 (78.4350%, ROC AUC: 62.0327%)
+
+	Train Epoch: 10 	Loss: 0.802929 Acc@1: 0.788508 (ε = 0.81, δ = 2e-05) for α = 19.0
+Epoch  11 :
+
+Test set: Average loss: 0.7783, Accuracy: 12842/16281 (78.8772%, ROC AUC: 62.4929%)
+
+	Train Epoch: 11 	Loss: 0.800689 Acc@1: 0.788532 (ε = 0.83, δ = 2e-05) for α = 19.0
+Epoch  12 :
+
+Test set: Average loss: 0.7013, Accuracy: 12737/16281 (78.2323%, ROC AUC: 62.9147%)
+
+	Train Epoch: 12 	Loss: 0.792411 Acc@1: 0.788015 (ε = 0.85, δ = 2e-05) for α = 19.0
+Epoch  13 :
+
+Test set: Average loss: 0.8445, Accuracy: 12391/16281 (76.1071%, ROC AUC: 62.8615%)
+
+	Train Epoch: 13 	Loss: 0.796421 Acc@1: 0.785942 (ε = 0.87, δ = 2e-05) for α = 19.0
+Epoch  14 :
+
+Test set: Average loss: 0.6368, Accuracy: 12641/16281 (77.6427%, ROC AUC: 63.1932%)
+
+	Train Epoch: 14 	Loss: 0.785019 Acc@1: 0.785262 (ε = 0.90, δ = 2e-05) for α = 19.0
+Epoch  15 :
+
+Test set: Average loss: 0.6882, Accuracy: 12685/16281 (77.9129%, ROC AUC: 63.3791%)
+
+	Train Epoch: 15 	Loss: 0.778563 Acc@1: 0.784854 (ε = 0.92, δ = 2e-05) for α = 19.0
+Epoch  16 :
+
+Test set: Average loss: 0.8435, Accuracy: 11874/16281 (72.9316%, ROC AUC: 63.6112%)
+
+	Train Epoch: 16 	Loss: 0.782624 Acc@1: 0.781382 (ε = 0.94, δ = 2e-05) for α = 19.0
+Epoch  17 :
+
+Test set: Average loss: 0.8369, Accuracy: 11996/16281 (73.6810%, ROC AUC: 63.2487%)
+
+	Train Epoch: 17 	Loss: 0.785817 Acc@1: 0.778761 (ε = 0.96, δ = 2e-05) for α = 19.0
+Epoch  18 :
+
+Test set: Average loss: 0.7751, Accuracy: 12127/16281 (74.4856%, ROC AUC: 63.6228%)
+
+	Train Epoch: 18 	Loss: 0.785220 Acc@1: 0.776877 (ε = 0.98, δ = 2e-05) for α = 19.0
+Epoch  19 :
+
+Test set: Average loss: 0.8076, Accuracy: 12578/16281 (77.2557%, ROC AUC: 63.2991%)
+
+	Train Epoch: 19 	Loss: 0.786397 Acc@1: 0.776650 (ε = 1.00, δ = 2e-05) for α = 19.0
+Epoch  20 :
+
+Test set: Average loss: 0.9667, Accuracy: 12330/16281 (75.7324%, ROC AUC: 63.3974%)
+
+	Train Epoch: 20 	Loss: 0.795414 Acc@1: 0.775683 (ε = 1.02, δ = 2e-05) for α = 19.0
+Epsilon = 1.0214171673019345, model accuracy: 0.7573244886677722, roc auc: 0.6339742636750102
+Random forest model attack results: 
+train acc: 0.8862257281553398
+test acc: 0.34156378600823045
+test acc majority: 0.47231609046009876
+test acc minority: 0.5276839095399013
+total acc: 0.7512971500737968
+experiment_number: 58
+['over', 1.0, 1.0214171673019345, 0.7573244886677722, 0.6339742636750102, 0.5276839095399013, 0.47231609046009876, 0.34156378600823045]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/over/test_results-58.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'under', 'attack_model': 'rf', 'sampling_ratio': 0.35}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing undersampling at 0.35
+X_train: (30243, 5), y_train: (30243,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 1.8292, Accuracy: 12187/16281 (74.8541%, ROC AUC: 55.6657%)
+
+	Train Epoch: 1 	Loss: 1.829209 Acc@1: 0.748541 (ε = 0.68, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 1.2738, Accuracy: 12626/16281 (77.5505%, ROC AUC: 60.2145%)
+
+	Train Epoch: 2 	Loss: 1.551494 Acc@1: 0.762023 (ε = 0.72, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 1.0848, Accuracy: 12687/16281 (77.9252%, ROC AUC: 60.1455%)
+
+	Train Epoch: 3 	Loss: 1.395941 Acc@1: 0.767766 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 1.2392, Accuracy: 12439/16281 (76.4019%, ROC AUC: 54.5238%)
+
+	Train Epoch: 4 	Loss: 1.356760 Acc@1: 0.766829 (ε = 0.80, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.8707, Accuracy: 12855/16281 (78.9571%, ROC AUC: 61.4406%)
+
+	Train Epoch: 5 	Loss: 1.259548 Acc@1: 0.771378 (ε = 0.83, δ = 2e-05) for α = 17.0
+Epoch  6 :
+
+Test set: Average loss: 0.8595, Accuracy: 12866/16281 (79.0246%, ROC AUC: 61.4849%)
+
+	Train Epoch: 6 	Loss: 1.192876 Acc@1: 0.774522 (ε = 0.86, δ = 2e-05) for α = 17.0
+Epoch  7 :
+
+Test set: Average loss: 0.8786, Accuracy: 12862/16281 (79.0001%, ROC AUC: 61.8010%)
+
+	Train Epoch: 7 	Loss: 1.147974 Acc@1: 0.776734 (ε = 0.90, δ = 2e-05) for α = 17.0
+Epoch  8 :
+
+Test set: Average loss: 0.8177, Accuracy: 12848/16281 (78.9141%, ROC AUC: 60.4427%)
+
+	Train Epoch: 8 	Loss: 1.106692 Acc@1: 0.778285 (ε = 0.93, δ = 2e-05) for α = 17.0
+Epoch  9 :
+
+Test set: Average loss: 0.9643, Accuracy: 12797/16281 (78.6008%, ROC AUC: 58.8997%)
+
+	Train Epoch: 9 	Loss: 1.090869 Acc@1: 0.779143 (ε = 0.96, δ = 2e-05) for α = 17.0
+Epoch  10 :
+
+Test set: Average loss: 0.9225, Accuracy: 12822/16281 (78.7544%, ROC AUC: 61.0565%)
+
+	Train Epoch: 10 	Loss: 1.074027 Acc@1: 0.779983 (ε = 0.99, δ = 2e-05) for α = 17.0
+Epoch  11 :
+
+Test set: Average loss: 1.0084, Accuracy: 12389/16281 (76.0948%, ROC AUC: 52.2934%)
+
+	Train Epoch: 11 	Loss: 1.068065 Acc@1: 0.778252 (ε = 1.02, δ = 2e-05) for α = 17.0
+Epoch  12 :
+
+Test set: Average loss: 0.7956, Accuracy: 12795/16281 (78.5885%, ROC AUC: 58.0026%)
+
+	Train Epoch: 12 	Loss: 1.045359 Acc@1: 0.778888 (ε = 1.05, δ = 2e-05) for α = 17.0
+Epoch  13 :
+
+Test set: Average loss: 0.8976, Accuracy: 12796/16281 (78.5947%, ROC AUC: 59.2548%)
+
+	Train Epoch: 13 	Loss: 1.033996 Acc@1: 0.779431 (ε = 1.08, δ = 2e-05) for α = 17.0
+Epoch  14 :
+
+Test set: Average loss: 0.8544, Accuracy: 12883/16281 (79.1290%, ROC AUC: 61.1761%)
+
+	Train Epoch: 14 	Loss: 1.021168 Acc@1: 0.780279 (ε = 1.11, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.7904, Accuracy: 12880/16281 (79.1106%, ROC AUC: 60.1942%)
+
+	Train Epoch: 15 	Loss: 1.005782 Acc@1: 0.781000 (ε = 1.15, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.9007, Accuracy: 12886/16281 (79.1475%, ROC AUC: 61.9424%)
+
+	Train Epoch: 16 	Loss: 0.999217 Acc@1: 0.781655 (ε = 1.18, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.8173, Accuracy: 12896/16281 (79.2089%, ROC AUC: 60.9141%)
+
+	Train Epoch: 17 	Loss: 0.988514 Acc@1: 0.782269 (ε = 1.21, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8033, Accuracy: 12865/16281 (79.0185%, ROC AUC: 60.5021%)
+
+	Train Epoch: 18 	Loss: 0.978222 Acc@1: 0.782709 (ε = 1.24, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.8102, Accuracy: 12911/16281 (79.3010%, ROC AUC: 60.6152%)
+
+	Train Epoch: 19 	Loss: 0.969381 Acc@1: 0.783251 (ε = 1.27, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.8675, Accuracy: 12899/16281 (79.2273%, ROC AUC: 61.8869%)
+
+	Train Epoch: 20 	Loss: 0.964285 Acc@1: 0.783702 (ε = 1.30, δ = 2e-05) for α = 17.0
+Epsilon = 1.3027064126848147, model accuracy: 0.7922732018917756, roc auc: 0.6188694785427122
+Random forest model attack results: 
+train acc: 0.8647290282048739
+test acc: 0.3077206559793625
+test acc majority: 0.5526384195476995
+test acc minority: 0.44736158045230046
+total acc: 0.6698048319147107
+experiment_number: 38
+['under', 0.35, 1.3027064126848147, 0.7922732018917756, 0.6188694785427122, 0.44736158045230046, 0.5526384195476995, 0.3077206559793625]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/under/test_results-38.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'under', 'attack_model': 'rf', 'sampling_ratio': 0.4}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing undersampling at 0.4
+X_train: (27443, 5), y_train: (27443,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 4.8029, Accuracy: 12831/16281 (78.8097%, ROC AUC: 58.8568%)
+
+	Train Epoch: 1 	Loss: 4.802856 Acc@1: 0.788097 (ε = 0.71, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.9443, Accuracy: 12794/16281 (78.5824%, ROC AUC: 58.3129%)
+
+	Train Epoch: 2 	Loss: 2.873572 Acc@1: 0.786960 (ε = 0.75, δ = 2e-05) for α = 17.0
+Epoch  3 :
+
+Test set: Average loss: 0.9033, Accuracy: 12871/16281 (79.0553%, ROC AUC: 62.2682%)
+
+	Train Epoch: 3 	Loss: 2.216814 Acc@1: 0.788158 (ε = 0.78, δ = 2e-05) for α = 17.0
+Epoch  4 :
+
+Test set: Average loss: 0.8320, Accuracy: 12803/16281 (78.6377%, ROC AUC: 57.4242%)
+
+	Train Epoch: 4 	Loss: 1.870622 Acc@1: 0.787713 (ε = 0.82, δ = 2e-05) for α = 17.0
+Epoch  5 :
+
+Test set: Average loss: 0.8366, Accuracy: 12915/16281 (79.3256%, ROC AUC: 61.9962%)
+
+	Train Epoch: 5 	Loss: 1.663808 Acc@1: 0.788821 (ε = 0.85, δ = 2e-05) for α = 17.0
+Epoch  6 :
+
+Test set: Average loss: 0.8248, Accuracy: 13031/16281 (80.0381%, ROC AUC: 61.9238%)
+
+	Train Epoch: 6 	Loss: 1.523968 Acc@1: 0.790748 (ε = 0.89, δ = 2e-05) for α = 17.0
+Epoch  7 :
+
+Test set: Average loss: 0.8088, Accuracy: 12960/16281 (79.6020%, ROC AUC: 62.2490%)
+
+	Train Epoch: 7 	Loss: 1.421797 Acc@1: 0.791501 (ε = 0.92, δ = 2e-05) for α = 17.0
+Epoch  8 :
+
+Test set: Average loss: 0.8345, Accuracy: 13023/16281 (79.9889%, ROC AUC: 61.8917%)
+
+	Train Epoch: 8 	Loss: 1.348381 Acc@1: 0.792550 (ε = 0.96, δ = 2e-05) for α = 17.0
+Epoch  9 :
+
+Test set: Average loss: 0.8716, Accuracy: 12964/16281 (79.6266%, ROC AUC: 62.0136%)
+
+	Train Epoch: 9 	Loss: 1.295407 Acc@1: 0.792962 (ε = 0.99, δ = 2e-05) for α = 17.0
+Epoch  10 :
+
+Test set: Average loss: 0.9626, Accuracy: 12856/16281 (78.9632%, ROC AUC: 62.3247%)
+
+	Train Epoch: 10 	Loss: 1.262124 Acc@1: 0.792629 (ε = 1.03, δ = 2e-05) for α = 17.0
+Epoch  11 :
+
+Test set: Average loss: 0.8716, Accuracy: 12895/16281 (79.2028%, ROC AUC: 62.2031%)
+
+	Train Epoch: 11 	Loss: 1.226625 Acc@1: 0.792575 (ε = 1.06, δ = 2e-05) for α = 17.0
+Epoch  12 :
+
+Test set: Average loss: 0.9624, Accuracy: 12871/16281 (79.0553%, ROC AUC: 62.2952%)
+
+	Train Epoch: 12 	Loss: 1.204609 Acc@1: 0.792406 (ε = 1.10, δ = 2e-05) for α = 17.0
+Epoch  13 :
+
+Test set: Average loss: 0.8231, Accuracy: 12951/16281 (79.5467%, ROC AUC: 60.2193%)
+
+	Train Epoch: 13 	Loss: 1.175265 Acc@1: 0.792642 (ε = 1.13, δ = 2e-05) for α = 17.0
+Epoch  14 :
+
+Test set: Average loss: 0.8103, Accuracy: 12997/16281 (79.8292%, ROC AUC: 62.0116%)
+
+	Train Epoch: 14 	Loss: 1.149194 Acc@1: 0.793045 (ε = 1.17, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.8271, Accuracy: 12936/16281 (79.4546%, ROC AUC: 62.2872%)
+
+	Train Epoch: 15 	Loss: 1.127721 Acc@1: 0.793145 (ε = 1.20, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.9021, Accuracy: 12931/16281 (79.4239%, ROC AUC: 62.1593%)
+
+	Train Epoch: 16 	Loss: 1.113623 Acc@1: 0.793214 (ε = 1.24, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.8930, Accuracy: 12908/16281 (79.2826%, ROC AUC: 62.2195%)
+
+	Train Epoch: 17 	Loss: 1.100643 Acc@1: 0.793191 (ε = 1.27, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8535, Accuracy: 12955/16281 (79.5713%, ROC AUC: 60.5317%)
+
+	Train Epoch: 18 	Loss: 1.086910 Acc@1: 0.793331 (ε = 1.31, δ = 2e-05) for α = 16.0
+Epoch  19 :
+
+Test set: Average loss: 0.8010, Accuracy: 12967/16281 (79.6450%, ROC AUC: 62.2951%)
+
+	Train Epoch: 19 	Loss: 1.071860 Acc@1: 0.793495 (ε = 1.34, δ = 2e-05) for α = 16.0
+Epoch  20 :
+
+Test set: Average loss: 0.8671, Accuracy: 12943/16281 (79.4976%, ROC AUC: 62.2524%)
+
+	Train Epoch: 20 	Loss: 1.061624 Acc@1: 0.793569 (ε = 1.37, δ = 2e-05) for α = 16.0
+Epsilon = 1.3707144793930555, model accuracy: 0.7949757385909957, roc auc: 0.622524396753916
+Random forest model attack results: 
+train acc: 0.8675436358998652
+test acc: 0.2959891898532031
+test acc majority: 0.5898102417468157
+test acc minority: 0.41018975825318427
+total acc: 0.6547205196230903
+experiment_number: 39
+['under', 0.4, 1.3707144793930555, 0.7949757385909957, 0.622524396753916, 0.41018975825318427, 0.5898102417468157, 0.2959891898532031]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/under/test_results-39.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'under', 'attack_model': 'rf', 'sampling_ratio': 0.6}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing undersampling at 0.6
+X_train: (20909, 5), y_train: (20909,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.8427, Accuracy: 13031/16281 (80.0381%, ROC AUC: 62.3908%)
+
+	Train Epoch: 1 	Loss: 0.842652 Acc@1: 0.800381 (ε = 0.75, δ = 2e-05) for α = 17.0
+Epoch  2 :
+
+Test set: Average loss: 0.8098, Accuracy: 13034/16281 (80.0565%, ROC AUC: 62.3490%)
+
+	Train Epoch: 2 	Loss: 0.826210 Acc@1: 0.800473 (ε = 0.81, δ = 2e-05) for α = 16.0
+Epoch  3 :
+
+Test set: Average loss: 0.8992, Accuracy: 12932/16281 (79.4300%, ROC AUC: 62.4147%)
+
+	Train Epoch: 3 	Loss: 0.850549 Acc@1: 0.798415 (ε = 0.85, δ = 2e-05) for α = 16.0
+Epoch  4 :
+
+Test set: Average loss: 0.8918, Accuracy: 12961/16281 (79.6081%, ROC AUC: 62.3248%)
+
+	Train Epoch: 4 	Loss: 0.860862 Acc@1: 0.797832 (ε = 0.90, δ = 2e-05) for α = 16.0
+Epoch  5 :
+
+Test set: Average loss: 0.8771, Accuracy: 12979/16281 (79.7187%, ROC AUC: 62.3882%)
+
+	Train Epoch: 5 	Loss: 0.864112 Acc@1: 0.797703 (ε = 0.94, δ = 2e-05) for α = 16.0
+Epoch  6 :
+
+Test set: Average loss: 0.8033, Accuracy: 13036/16281 (80.0688%, ROC AUC: 62.1415%)
+
+	Train Epoch: 6 	Loss: 0.853985 Acc@1: 0.798200 (ε = 0.99, δ = 2e-05) for α = 16.0
+Epoch  7 :
+
+Test set: Average loss: 0.8267, Accuracy: 13036/16281 (80.0688%, ROC AUC: 61.9888%)
+
+	Train Epoch: 7 	Loss: 0.850089 Acc@1: 0.798556 (ε = 1.03, δ = 2e-05) for α = 16.0
+Epoch  8 :
+
+Test set: Average loss: 0.9246, Accuracy: 12938/16281 (79.4669%, ROC AUC: 62.3940%)
+
+	Train Epoch: 8 	Loss: 0.859397 Acc@1: 0.798070 (ε = 1.07, δ = 2e-05) for α = 16.0
+Epoch  9 :
+
+Test set: Average loss: 0.8488, Accuracy: 12994/16281 (79.8108%, ROC AUC: 62.3857%)
+
+	Train Epoch: 9 	Loss: 0.858219 Acc@1: 0.798074 (ε = 1.12, δ = 2e-05) for α = 16.0
+Epoch  10 :
+
+Test set: Average loss: 0.8522, Accuracy: 13027/16281 (80.0135%, ROC AUC: 61.5396%)
+
+	Train Epoch: 10 	Loss: 0.857616 Acc@1: 0.798280 (ε = 1.16, δ = 2e-05) for α = 16.0
+Epoch  11 :
+
+Test set: Average loss: 0.7953, Accuracy: 13045/16281 (80.1241%, ROC AUC: 62.0430%)
+
+	Train Epoch: 11 	Loss: 0.851952 Acc@1: 0.798549 (ε = 1.21, δ = 2e-05) for α = 16.0
+Epoch  12 :
+
+Test set: Average loss: 0.8825, Accuracy: 12940/16281 (79.4791%, ROC AUC: 62.3571%)
+
+	Train Epoch: 12 	Loss: 0.854494 Acc@1: 0.798236 (ε = 1.25, δ = 2e-05) for α = 16.0
+Epoch  13 :
+
+Test set: Average loss: 0.7984, Accuracy: 13034/16281 (80.0565%, ROC AUC: 62.1514%)
+
+	Train Epoch: 13 	Loss: 0.850178 Acc@1: 0.798415 (ε = 1.30, δ = 2e-05) for α = 16.0
+Epoch  14 :
+
+Test set: Average loss: 0.8313, Accuracy: 12989/16281 (79.7801%, ROC AUC: 62.3386%)
+
+	Train Epoch: 14 	Loss: 0.848826 Acc@1: 0.798371 (ε = 1.34, δ = 2e-05) for α = 16.0
+Epoch  15 :
+
+Test set: Average loss: 0.8329, Accuracy: 13004/16281 (79.8722%, ROC AUC: 62.3900%)
+
+	Train Epoch: 15 	Loss: 0.847766 Acc@1: 0.798395 (ε = 1.38, δ = 2e-05) for α = 15.0
+Epoch  16 :
+
+Test set: Average loss: 0.7806, Accuracy: 13015/16281 (79.9398%, ROC AUC: 60.8897%)
+
+	Train Epoch: 16 	Loss: 0.843568 Acc@1: 0.798458 (ε = 1.42, δ = 2e-05) for α = 15.0
+Epoch  17 :
+
+Test set: Average loss: 0.8086, Accuracy: 12994/16281 (79.8108%, ROC AUC: 62.3767%)
+
+	Train Epoch: 17 	Loss: 0.841509 Acc@1: 0.798437 (ε = 1.46, δ = 2e-05) for α = 15.0
+Epoch  18 :
+
+Test set: Average loss: 0.8200, Accuracy: 12995/16281 (79.8170%, ROC AUC: 62.3717%)
+
+	Train Epoch: 18 	Loss: 0.840313 Acc@1: 0.798422 (ε = 1.51, δ = 2e-05) for α = 15.0
+Epoch  19 :
+
+Test set: Average loss: 0.9299, Accuracy: 12915/16281 (79.3256%, ROC AUC: 62.3643%)
+
+	Train Epoch: 19 	Loss: 0.845028 Acc@1: 0.798150 (ε = 1.55, δ = 2e-05) for α = 15.0
+Epoch  20 :
+
+Test set: Average loss: 0.8708, Accuracy: 12929/16281 (79.4116%, ROC AUC: 59.9063%)
+
+	Train Epoch: 20 	Loss: 0.846318 Acc@1: 0.797949 (ε = 1.59, δ = 2e-05) for α = 14.0
+Epsilon = 1.5860173486831894, model accuracy: 0.7941158405503348, roc auc: 0.5990634607290203
+Random forest model attack results: 
+train acc: 0.8628820125304892
+test acc: 0.27922117806031566
+test acc majority: 0.5749935014296854
+test acc minority: 0.4250064985703146
+total acc: 0.6073675719279377
+experiment_number: 40
+['under', 0.6, 1.5860173486831894, 0.7941158405503348, 0.5990634607290203, 0.4250064985703146, 0.5749935014296854, 0.27922117806031566]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/under/test_results-40.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'under', 'attack_model': 'rf', 'sampling_ratio': 0.8}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing undersampling at 0.8
+X_train: (17642, 5), y_train: (17642,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 21.2036, Accuracy: 12293/16281 (75.5052%, ROC AUC: 52.8862%)
+
+	Train Epoch: 1 	Loss: 21.203578 Acc@1: 0.755052 (ε = 0.78, δ = 2e-05) for α = 16.0
+Epoch  2 :
+
+Test set: Average loss: 0.8997, Accuracy: 12835/16281 (78.8342%, ROC AUC: 62.2223%)
+
+	Train Epoch: 2 	Loss: 11.051620 Acc@1: 0.771697 (ε = 0.84, δ = 2e-05) for α = 16.0
+Epoch  3 :
+
+Test set: Average loss: 0.8035, Accuracy: 12879/16281 (79.1045%, ROC AUC: 62.3273%)
+
+	Train Epoch: 3 	Loss: 7.635586 Acc@1: 0.778146 (ε = 0.90, δ = 2e-05) for α = 16.0
+Epoch  4 :
+
+Test set: Average loss: 0.8923, Accuracy: 12874/16281 (79.0738%, ROC AUC: 62.3072%)
+
+	Train Epoch: 4 	Loss: 5.949759 Acc@1: 0.781294 (ε = 0.95, δ = 2e-05) for α = 16.0
+Epoch  5 :
+
+Test set: Average loss: 0.8973, Accuracy: 12836/16281 (78.8404%, ROC AUC: 62.2442%)
+
+	Train Epoch: 5 	Loss: 4.939258 Acc@1: 0.782716 (ε = 1.01, δ = 2e-05) for α = 16.0
+Epoch  6 :
+
+Test set: Average loss: 0.9277, Accuracy: 12862/16281 (79.0001%, ROC AUC: 62.2770%)
+
+	Train Epoch: 6 	Loss: 4.270664 Acc@1: 0.783930 (ε = 1.07, δ = 2e-05) for α = 15.0
+Epoch  7 :
+
+Test set: Average loss: 0.7926, Accuracy: 12958/16281 (79.5897%, ROC AUC: 62.1870%)
+
+	Train Epoch: 7 	Loss: 3.773798 Acc@1: 0.785640 (ε = 1.12, δ = 2e-05) for α = 15.0
+Epoch  8 :
+
+Test set: Average loss: 1.1171, Accuracy: 12765/16281 (78.4043%, ROC AUC: 61.9677%)
+
+	Train Epoch: 8 	Loss: 3.441706 Acc@1: 0.785440 (ε = 1.17, δ = 2e-05) for α = 15.0
+Epoch  9 :
+
+Test set: Average loss: 0.8556, Accuracy: 12900/16281 (79.2335%, ROC AUC: 62.1963%)
+
+	Train Epoch: 9 	Loss: 3.154366 Acc@1: 0.786206 (ε = 1.22, δ = 2e-05) for α = 15.0
+Epoch  10 :
+
+Test set: Average loss: 0.7803, Accuracy: 12969/16281 (79.6573%, ROC AUC: 62.1415%)
+
+	Train Epoch: 10 	Loss: 2.916956 Acc@1: 0.787243 (ε = 1.26, δ = 2e-05) for α = 15.0
+Epoch  11 :
+
+Test set: Average loss: 0.8056, Accuracy: 12883/16281 (79.1290%, ROC AUC: 62.2087%)
+
+	Train Epoch: 11 	Loss: 2.725011 Acc@1: 0.787611 (ε = 1.31, δ = 2e-05) for α = 15.0
+Epoch  12 :
+
+Test set: Average loss: 0.7515, Accuracy: 12931/16281 (79.4239%, ROC AUC: 62.1862%)
+
+	Train Epoch: 12 	Loss: 2.560551 Acc@1: 0.788163 (ε = 1.36, δ = 2e-05) for α = 15.0
+Epoch  13 :
+
+Test set: Average loss: 0.9046, Accuracy: 12831/16281 (78.8097%, ROC AUC: 62.2241%)
+
+	Train Epoch: 13 	Loss: 2.433172 Acc@1: 0.788158 (ε = 1.41, δ = 2e-05) for α = 15.0
+Epoch  14 :
+
+Test set: Average loss: 0.7436, Accuracy: 12889/16281 (79.1659%, ROC AUC: 59.4312%)
+
+	Train Epoch: 14 	Loss: 2.312486 Acc@1: 0.788408 (ε = 1.46, δ = 2e-05) for α = 15.0
+Epoch  15 :
+
+Test set: Average loss: 0.8548, Accuracy: 12886/16281 (79.1475%, ROC AUC: 62.2028%)
+
+	Train Epoch: 15 	Loss: 2.215308 Acc@1: 0.788612 (ε = 1.51, δ = 2e-05) for α = 15.0
+Epoch  16 :
+
+Test set: Average loss: 0.8336, Accuracy: 12848/16281 (78.9141%, ROC AUC: 62.2476%)
+
+	Train Epoch: 16 	Loss: 2.128948 Acc@1: 0.788646 (ε = 1.56, δ = 2e-05) for α = 14.0
+Epoch  17 :
+
+Test set: Average loss: 0.7539, Accuracy: 12985/16281 (79.7555%, ROC AUC: 62.1070%)
+
+	Train Epoch: 17 	Loss: 2.048064 Acc@1: 0.789170 (ε = 1.60, δ = 2e-05) for α = 14.0
+Epoch  18 :
+
+Test set: Average loss: 0.7319, Accuracy: 12974/16281 (79.6880%, ROC AUC: 60.3118%)
+
+	Train Epoch: 18 	Loss: 1.974941 Acc@1: 0.789598 (ε = 1.65, δ = 2e-05) for α = 14.0
+Epoch  19 :
+
+Test set: Average loss: 1.1127, Accuracy: 12766/16281 (78.4104%, ROC AUC: 61.9718%)
+
+	Train Epoch: 19 	Loss: 1.929559 Acc@1: 0.789309 (ε = 1.69, δ = 2e-05) for α = 14.0
+Epoch  20 :
+
+Test set: Average loss: 0.9238, Accuracy: 12813/16281 (78.6991%, ROC AUC: 62.1338%)
+
+	Train Epoch: 20 	Loss: 1.879271 Acc@1: 0.789193 (ε = 1.74, δ = 2e-05) for α = 13.0
+Epsilon = 1.7352303489414989, model accuracy: 0.786990971070573, roc auc: 0.6213380404938755
+Random forest model attack results: 
+train acc: 0.8432150549824283
+test acc: 0.3018242122719734
+test acc majority: 0.5835716142448661
+test acc minority: 0.41642838575513386
+total acc: 0.5833800076644164
+experiment_number: 41
+['under', 0.8, 1.7352303489414989, 0.786990971070573, 0.6213380404938755, 0.41642838575513386, 0.5835716142448661, 0.3018242122719734]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/under/test_results-41.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'under', 'attack_model': 'rf', 'sampling_ratio': 1.0}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing undersampling at 1.0
+X_train: (15682, 5), y_train: (15682,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 18.9540, Accuracy: 12012/16281 (73.7793%, ROC AUC: 59.5955%)
+
+	Train Epoch: 1 	Loss: 18.954031 Acc@1: 0.737793 (ε = 0.81, δ = 2e-05) for α = 16.0
+Epoch  2 :
+
+Test set: Average loss: 9.6210, Accuracy: 12092/16281 (74.2706%, ROC AUC: 59.8453%)
+
+	Train Epoch: 2 	Loss: 14.287530 Acc@1: 0.740249 (ε = 0.89, δ = 2e-05) for α = 15.0
+Epoch  3 :
+
+Test set: Average loss: 4.5189, Accuracy: 12199/16281 (74.9278%, ROC AUC: 60.1319%)
+
+	Train Epoch: 3 	Loss: 11.031304 Acc@1: 0.743259 (ε = 0.94, δ = 2e-05) for α = 15.0
+Epoch  4 :
+
+Test set: Average loss: 0.8759, Accuracy: 12323/16281 (75.6895%, ROC AUC: 60.6664%)
+
+	Train Epoch: 4 	Loss: 8.492455 Acc@1: 0.746668 (ε = 1.00, δ = 2e-05) for α = 15.0
+Epoch  5 :
+
+Test set: Average loss: 0.9261, Accuracy: 12481/16281 (76.6599%, ROC AUC: 61.1131%)
+
+	Train Epoch: 5 	Loss: 6.979181 Acc@1: 0.750654 (ε = 1.06, δ = 2e-05) for α = 15.0
+Epoch  6 :
+
+Test set: Average loss: 0.9137, Accuracy: 12598/16281 (77.3785%, ROC AUC: 61.4669%)
+
+	Train Epoch: 6 	Loss: 5.968265 Acc@1: 0.754509 (ε = 1.11, δ = 2e-05) for α = 15.0
+Epoch  7 :
+
+Test set: Average loss: 0.7601, Accuracy: 12691/16281 (77.9498%, ROC AUC: 61.7241%)
+
+	Train Epoch: 7 	Loss: 5.224241 Acc@1: 0.758079 (ε = 1.17, δ = 2e-05) for α = 15.0
+Epoch  8 :
+
+Test set: Average loss: 0.9041, Accuracy: 12713/16281 (78.0849%, ROC AUC: 61.7766%)
+
+	Train Epoch: 8 	Loss: 4.684226 Acc@1: 0.760925 (ε = 1.23, δ = 2e-05) for α = 15.0
+Epoch  9 :
+
+Test set: Average loss: 1.0568, Accuracy: 12714/16281 (78.0910%, ROC AUC: 61.7717%)
+
+	Train Epoch: 9 	Loss: 4.281174 Acc@1: 0.763146 (ε = 1.28, δ = 2e-05) for α = 15.0
+Epoch  10 :
+
+Test set: Average loss: 1.0456, Accuracy: 12718/16281 (78.1156%, ROC AUC: 61.7788%)
+
+	Train Epoch: 10 	Loss: 3.957618 Acc@1: 0.764947 (ε = 1.34, δ = 2e-05) for α = 15.0
+Epoch  11 :
+
+Test set: Average loss: 0.7913, Accuracy: 12730/16281 (78.1893%, ROC AUC: 61.8180%)
+
+	Train Epoch: 11 	Loss: 3.669769 Acc@1: 0.766487 (ε = 1.40, δ = 2e-05) for α = 15.0
+Epoch  12 :
+
+Test set: Average loss: 0.9415, Accuracy: 12727/16281 (78.1709%, ROC AUC: 61.8060%)
+
+	Train Epoch: 12 	Loss: 3.442409 Acc@1: 0.767756 (ε = 1.45, δ = 2e-05) for α = 14.0
+Epoch  13 :
+
+Test set: Average loss: 0.7155, Accuracy: 12729/16281 (78.1832%, ROC AUC: 61.7242%)
+
+	Train Epoch: 13 	Loss: 3.232646 Acc@1: 0.768839 (ε = 1.51, δ = 2e-05) for α = 14.0
+Epoch  14 :
+
+Test set: Average loss: 0.8209, Accuracy: 12731/16281 (78.1954%, ROC AUC: 61.7951%)
+
+	Train Epoch: 14 	Loss: 3.060382 Acc@1: 0.769775 (ε = 1.56, δ = 2e-05) for α = 14.0
+Epoch  15 :
+
+Test set: Average loss: 0.7965, Accuracy: 12732/16281 (78.2016%, ROC AUC: 61.7991%)
+
+	Train Epoch: 15 	Loss: 2.909457 Acc@1: 0.770591 (ε = 1.61, δ = 2e-05) for α = 14.0
+Epoch  16 :
+
+Test set: Average loss: 0.8986, Accuracy: 12729/16281 (78.1832%, ROC AUC: 61.8230%)
+
+	Train Epoch: 16 	Loss: 2.783779 Acc@1: 0.771294 (ε = 1.66, δ = 2e-05) for α = 14.0
+Epoch  17 :
+
+Test set: Average loss: 0.8380, Accuracy: 12732/16281 (78.2016%, ROC AUC: 61.7902%)
+
+	Train Epoch: 17 	Loss: 2.669324 Acc@1: 0.771925 (ε = 1.71, δ = 2e-05) for α = 13.0
+Epoch  18 :
+
+Test set: Average loss: 0.7292, Accuracy: 12740/16281 (78.2507%, ROC AUC: 61.8313%)
+
+	Train Epoch: 18 	Loss: 2.561540 Acc@1: 0.772513 (ε = 1.76, δ = 2e-05) for α = 13.0
+Epoch  19 :
+
+Test set: Average loss: 0.9740, Accuracy: 12729/16281 (78.1832%, ROC AUC: 61.8140%)
+
+	Train Epoch: 19 	Loss: 2.477984 Acc@1: 0.773003 (ε = 1.81, δ = 2e-05) for α = 13.0
+Epoch  20 :
+
+Test set: Average loss: 0.7788, Accuracy: 12736/16281 (78.2262%, ROC AUC: 61.8152%)
+
+	Train Epoch: 20 	Loss: 2.393026 Acc@1: 0.773466 (ε = 1.85, δ = 2e-05) for α = 12.0
+Epsilon = 1.8533008853579465, model accuracy: 0.7822615318469381, roc auc: 0.6181521446623848
+Random forest model attack results: 
+train acc: 0.8409641627343452
+test acc: 0.3005957864996007
+test acc majority: 0.5830517286197037
+test acc minority: 0.41694827138029633
+total acc: 0.5657166098301161
+experiment_number: 42
+['under', 1.0, 1.8533008853579465, 0.7822615318469381, 0.6181521446623848, 0.41694827138029633, 0.5830517286197037, 0.3005957864996007]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/under/test_results-42.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'smote', 'attack_model': 'rf', 'sampling_ratio': 0.35}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing SMOTE oversampling at 0.35
+X_train: (33372, 5), y_train: (33372,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.8768, Accuracy: 12932/16281 (79.4300%, ROC AUC: 59.1911%)
+
+	Train Epoch: 1 	Loss: 0.876797 Acc@1: 0.794300 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.8832, Accuracy: 12969/16281 (79.6573%, ROC AUC: 62.0696%)
+
+	Train Epoch: 2 	Loss: 0.880005 Acc@1: 0.795436 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.9116, Accuracy: 12931/16281 (79.4239%, ROC AUC: 62.0605%)
+
+	Train Epoch: 3 	Loss: 0.890542 Acc@1: 0.795037 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.7969, Accuracy: 13020/16281 (79.9705%, ROC AUC: 60.1825%)
+
+	Train Epoch: 4 	Loss: 0.867144 Acc@1: 0.796204 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.9184, Accuracy: 12896/16281 (79.2089%, ROC AUC: 62.1084%)
+
+	Train Epoch: 5 	Loss: 0.877393 Acc@1: 0.795381 (ε = 0.79, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.8494, Accuracy: 12825/16281 (78.7728%, ROC AUC: 58.0425%)
+
+	Train Epoch: 6 	Loss: 0.872722 Acc@1: 0.794106 (ε = 0.82, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.9717, Accuracy: 12555/16281 (77.1144%, ROC AUC: 54.6670%)
+
+	Train Epoch: 7 	Loss: 0.886868 Acc@1: 0.790825 (ε = 0.85, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.8048, Accuracy: 12979/16281 (79.7187%, ROC AUC: 60.2062%)
+
+	Train Epoch: 8 	Loss: 0.876606 Acc@1: 0.791621 (ε = 0.89, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 1.1955, Accuracy: 12416/16281 (76.2607%, ROC AUC: 50.3007%)
+
+	Train Epoch: 9 	Loss: 0.912035 Acc@1: 0.788397 (ε = 0.92, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.8901, Accuracy: 12992/16281 (79.7985%, ROC AUC: 62.2070%)
+
+	Train Epoch: 10 	Loss: 0.909838 Acc@1: 0.789356 (ε = 0.95, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.8123, Accuracy: 12998/16281 (79.8354%, ROC AUC: 61.1626%)
+
+	Train Epoch: 11 	Loss: 0.900974 Acc@1: 0.790174 (ε = 0.98, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.9236, Accuracy: 12966/16281 (79.6388%, ROC AUC: 62.2102%)
+
+	Train Epoch: 12 	Loss: 0.902857 Acc@1: 0.790692 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.8814, Accuracy: 12964/16281 (79.6266%, ROC AUC: 62.0495%)
+
+	Train Epoch: 13 	Loss: 0.901203 Acc@1: 0.791120 (ε = 1.04, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.7891, Accuracy: 13011/16281 (79.9152%, ROC AUC: 61.3226%)
+
+	Train Epoch: 14 	Loss: 0.893199 Acc@1: 0.791694 (ε = 1.07, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.7971, Accuracy: 12966/16281 (79.6388%, ROC AUC: 58.9327%)
+
+	Train Epoch: 15 	Loss: 0.886789 Acc@1: 0.792007 (ε = 1.10, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.9020, Accuracy: 12895/16281 (79.2028%, ROC AUC: 62.0325%)
+
+	Train Epoch: 16 	Loss: 0.887743 Acc@1: 0.792008 (ε = 1.13, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.9996, Accuracy: 12863/16281 (79.0062%, ROC AUC: 62.2451%)
+
+	Train Epoch: 17 	Loss: 0.894325 Acc@1: 0.791894 (ε = 1.15, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8110, Accuracy: 13019/16281 (79.9644%, ROC AUC: 61.3188%)
+
+	Train Epoch: 18 	Loss: 0.889699 Acc@1: 0.792324 (ε = 1.18, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.9980, Accuracy: 12828/16281 (78.7912%, ROC AUC: 61.6104%)
+
+	Train Epoch: 19 	Loss: 0.895400 Acc@1: 0.792092 (ε = 1.21, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.8403, Accuracy: 12971/16281 (79.6696%, ROC AUC: 60.2009%)
+
+	Train Epoch: 20 	Loss: 0.892644 Acc@1: 0.792322 (ε = 1.24, δ = 2e-05) for α = 17.0
+Epsilon = 1.2376892455949124, model accuracy: 0.7966955346723175, roc auc: 0.6020093879750364
+Random forest model attack results: 
+train acc: 0.8686623516720604
+test acc: 0.3096247159265402
+test acc majority: 0.5794125292435665
+test acc minority: 0.42058747075643355
+total acc: 0.6853563732302177
+experiment_number: 39
+['smote', 0.35, 1.2376892455949124, 0.7966955346723175, 0.6020093879750364, 0.42058747075643355, 0.5794125292435665, 0.3096247159265402]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/smote/test_results-39.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'smote', 'attack_model': 'rf', 'sampling_ratio': 0.4}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing SMOTE oversampling at 0.4
+X_train: (34608, 5), y_train: (34608,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 1.0487, Accuracy: 12730/16281 (78.1893%, ROC AUC: 61.8270%)
+
+	Train Epoch: 1 	Loss: 1.048705 Acc@1: 0.781893 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.9206, Accuracy: 12754/16281 (78.3367%, ROC AUC: 60.4060%)
+
+	Train Epoch: 2 	Loss: 0.984666 Acc@1: 0.782630 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.8767, Accuracy: 12741/16281 (78.2569%, ROC AUC: 61.5839%)
+
+	Train Epoch: 3 	Loss: 0.948688 Acc@1: 0.782610 (ε = 0.72, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 1.1065, Accuracy: 12433/16281 (76.3651%, ROC AUC: 54.2483%)
+
+	Train Epoch: 4 	Loss: 0.988136 Acc@1: 0.777870 (ε = 0.75, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.9675, Accuracy: 12749/16281 (78.3060%, ROC AUC: 61.2928%)
+
+	Train Epoch: 5 	Loss: 0.984005 Acc@1: 0.778908 (ε = 0.78, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.8945, Accuracy: 12740/16281 (78.2507%, ROC AUC: 61.7864%)
+
+	Train Epoch: 6 	Loss: 0.969095 Acc@1: 0.779508 (ε = 0.81, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.9229, Accuracy: 12739/16281 (78.2446%, ROC AUC: 61.7465%)
+
+	Train Epoch: 7 	Loss: 0.962497 Acc@1: 0.779928 (ε = 0.84, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.9177, Accuracy: 12744/16281 (78.2753%, ROC AUC: 61.3266%)
+
+	Train Epoch: 8 	Loss: 0.956899 Acc@1: 0.780281 (ε = 0.87, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.9627, Accuracy: 12742/16281 (78.2630%, ROC AUC: 61.8304%)
+
+	Train Epoch: 9 	Loss: 0.957543 Acc@1: 0.780542 (ε = 0.90, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.9171, Accuracy: 12746/16281 (78.2876%, ROC AUC: 61.8195%)
+
+	Train Epoch: 10 	Loss: 0.953496 Acc@1: 0.780775 (ε = 0.93, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 1.0499, Accuracy: 12732/16281 (78.2016%, ROC AUC: 61.6824%)
+
+	Train Epoch: 11 	Loss: 0.962262 Acc@1: 0.780888 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.9966, Accuracy: 12737/16281 (78.2323%, ROC AUC: 61.8372%)
+
+	Train Epoch: 12 	Loss: 0.965125 Acc@1: 0.781008 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 1.4672, Accuracy: 12222/16281 (75.0691%, ROC AUC: 51.4693%)
+
+	Train Epoch: 13 	Loss: 1.003746 Acc@1: 0.778675 (ε = 1.02, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.8804, Accuracy: 12742/16281 (78.2630%, ROC AUC: 61.6597%)
+
+	Train Epoch: 14 	Loss: 0.994938 Acc@1: 0.778958 (ε = 1.05, δ = 2e-05) for α = 18.0
+Epoch  15 :
+
+Test set: Average loss: 0.8344, Accuracy: 12736/16281 (78.2262%, ROC AUC: 58.6544%)
+
+	Train Epoch: 15 	Loss: 0.984239 Acc@1: 0.779178 (ε = 1.08, δ = 2e-05) for α = 18.0
+Epoch  16 :
+
+Test set: Average loss: 0.8746, Accuracy: 12746/16281 (78.2876%, ROC AUC: 61.5591%)
+
+	Train Epoch: 16 	Loss: 0.977389 Acc@1: 0.779409 (ε = 1.11, δ = 2e-05) for α = 18.0
+Epoch  17 :
+
+Test set: Average loss: 0.8834, Accuracy: 12748/16281 (78.2999%, ROC AUC: 61.7916%)
+
+	Train Epoch: 17 	Loss: 0.971861 Acc@1: 0.779620 (ε = 1.14, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.9453, Accuracy: 12745/16281 (78.2814%, ROC AUC: 61.8604%)
+
+	Train Epoch: 18 	Loss: 0.970384 Acc@1: 0.779798 (ε = 1.16, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.9414, Accuracy: 12742/16281 (78.2630%, ROC AUC: 61.8214%)
+
+	Train Epoch: 19 	Loss: 0.968857 Acc@1: 0.779947 (ε = 1.19, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.9610, Accuracy: 12736/16281 (78.2262%, ROC AUC: 61.7883%)
+
+	Train Epoch: 20 	Loss: 0.968463 Acc@1: 0.780063 (ε = 1.22, δ = 2e-05) for α = 17.0
+Epsilon = 1.2168531562970397, model accuracy: 0.7822615318469381, roc auc: 0.617882756323522
+Random forest model attack results: 
+train acc: 0.8708969024503005
+test acc: 0.31030035010134516
+test acc majority: 0.5669352742396673
+test acc minority: 0.4330647257603327
+total acc: 0.691544341606241
+experiment_number: 40
+['smote', 0.4, 1.2168531562970397, 0.7822615318469381, 0.617882756323522, 0.4330647257603327, 0.5669352742396673, 0.31030035010134516]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/smote/test_results-40.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'smote', 'attack_model': 'rf', 'sampling_ratio': 0.6}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing SMOTE oversampling at 0.6
+X_train: (39552, 5), y_train: (39552,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.9962, Accuracy: 12724/16281 (78.1524%, ROC AUC: 61.7580%)
+
+	Train Epoch: 1 	Loss: 0.996228 Acc@1: 0.781524 (ε = 0.64, δ = 2e-05) for α = 19.0
+Epoch  2 :
+
+Test set: Average loss: 0.7717, Accuracy: 12773/16281 (78.4534%, ROC AUC: 61.8562%)
+
+	Train Epoch: 2 	Loss: 0.883967 Acc@1: 0.783029 (ε = 0.67, δ = 2e-05) for α = 19.0
+Epoch  3 :
+
+Test set: Average loss: 0.9825, Accuracy: 12744/16281 (78.2753%, ROC AUC: 61.8743%)
+
+	Train Epoch: 3 	Loss: 0.916802 Acc@1: 0.782937 (ε = 0.71, δ = 2e-05) for α = 19.0
+Epoch  4 :
+
+Test set: Average loss: 0.9042, Accuracy: 12780/16281 (78.4964%, ROC AUC: 62.0011%)
+
+	Train Epoch: 4 	Loss: 0.913656 Acc@1: 0.783444 (ε = 0.74, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.8244, Accuracy: 12803/16281 (78.6377%, ROC AUC: 62.0577%)
+
+	Train Epoch: 5 	Loss: 0.895800 Acc@1: 0.784030 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.7530, Accuracy: 12877/16281 (79.0922%, ROC AUC: 60.1193%)
+
+	Train Epoch: 6 	Loss: 0.871998 Acc@1: 0.785179 (ε = 0.79, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.8746, Accuracy: 12772/16281 (78.4473%, ROC AUC: 61.8792%)
+
+	Train Epoch: 7 	Loss: 0.872375 Acc@1: 0.785078 (ε = 0.81, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.9286, Accuracy: 12799/16281 (78.6131%, ROC AUC: 62.1045%)
+
+	Train Epoch: 8 	Loss: 0.879404 Acc@1: 0.785210 (ε = 0.84, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.7679, Accuracy: 12891/16281 (79.1782%, ROC AUC: 62.2229%)
+
+	Train Epoch: 9 	Loss: 0.867010 Acc@1: 0.785940 (ε = 0.86, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.7416, Accuracy: 12857/16281 (78.9694%, ROC AUC: 62.1671%)
+
+	Train Epoch: 10 	Loss: 0.854465 Acc@1: 0.786315 (ε = 0.89, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 1.0365, Accuracy: 12753/16281 (78.3306%, ROC AUC: 61.9195%)
+
+	Train Epoch: 11 	Loss: 0.871015 Acc@1: 0.786042 (ε = 0.91, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.8800, Accuracy: 12828/16281 (78.7912%, ROC AUC: 62.2211%)
+
+	Train Epoch: 12 	Loss: 0.871760 Acc@1: 0.786198 (ε = 0.94, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.7702, Accuracy: 12868/16281 (79.0369%, ROC AUC: 62.2562%)
+
+	Train Epoch: 13 	Loss: 0.863948 Acc@1: 0.786518 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.7968, Accuracy: 12816/16281 (78.7175%, ROC AUC: 62.0920%)
+
+	Train Epoch: 14 	Loss: 0.859155 Acc@1: 0.786565 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  15 :
+
+Test set: Average loss: 0.8396, Accuracy: 12815/16281 (78.7114%, ROC AUC: 62.1239%)
+
+	Train Epoch: 15 	Loss: 0.857850 Acc@1: 0.786602 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  16 :
+
+Test set: Average loss: 0.9755, Accuracy: 12761/16281 (78.3797%, ROC AUC: 61.9517%)
+
+	Train Epoch: 16 	Loss: 0.865206 Acc@1: 0.786427 (ε = 1.04, δ = 2e-05) for α = 18.0
+Epoch  17 :
+
+Test set: Average loss: 0.7563, Accuracy: 12879/16281 (79.1045%, ROC AUC: 62.2645%)
+
+	Train Epoch: 17 	Loss: 0.858800 Acc@1: 0.786698 (ε = 1.06, δ = 2e-05) for α = 18.0
+Epoch  18 :
+
+Test set: Average loss: 0.7897, Accuracy: 12795/16281 (78.5885%, ROC AUC: 61.8190%)
+
+	Train Epoch: 18 	Loss: 0.854959 Acc@1: 0.786653 (ε = 1.09, δ = 2e-05) for α = 18.0
+Epoch  19 :
+
+Test set: Average loss: 0.7772, Accuracy: 12791/16281 (78.5640%, ROC AUC: 61.9555%)
+
+	Train Epoch: 19 	Loss: 0.850869 Acc@1: 0.786600 (ε = 1.11, δ = 2e-05) for α = 18.0
+Epoch  20 :
+
+Test set: Average loss: 0.7972, Accuracy: 12788/16281 (78.5455%, ROC AUC: 61.9345%)
+
+	Train Epoch: 20 	Loss: 0.848187 Acc@1: 0.786543 (ε = 1.14, δ = 2e-05) for α = 18.0
+Epsilon = 1.1353365863283504, model accuracy: 0.7854554388551072, roc auc: 0.6193450560700352
+Random forest model attack results: 
+train acc: 0.8670610841423948
+test acc: 0.3218475523616485
+test acc majority: 0.5669352742396673
+test acc minority: 0.4330647257603327
+total acc: 0.7080758691096664
+experiment_number: 41
+['smote', 0.6, 1.1353365863283504, 0.7854554388551072, 0.6193450560700352, 0.4330647257603327, 0.5669352742396673, 0.3218475523616485]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/smote/test_results-41.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'smote', 'attack_model': 'rf', 'sampling_ratio': 0.8}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing SMOTE oversampling at 0.8
+X_train: (44496, 5), y_train: (44496,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.7574, Accuracy: 13018/16281 (79.9582%, ROC AUC: 62.2307%)
+
+	Train Epoch: 1 	Loss: 0.757353 Acc@1: 0.799582 (ε = 0.63, δ = 2e-05) for α = 19.0
+Epoch  2 :
+
+Test set: Average loss: 0.8798, Accuracy: 12927/16281 (79.3993%, ROC AUC: 62.2779%)
+
+	Train Epoch: 2 	Loss: 0.818574 Acc@1: 0.796788 (ε = 0.65, δ = 2e-05) for α = 19.0
+Epoch  3 :
+
+Test set: Average loss: 0.8721, Accuracy: 12967/16281 (79.6450%, ROC AUC: 62.3220%)
+
+	Train Epoch: 3 	Loss: 0.836400 Acc@1: 0.796675 (ε = 0.67, δ = 2e-05) for α = 19.0
+Epoch  4 :
+
+Test set: Average loss: 0.8911, Accuracy: 12907/16281 (79.2765%, ROC AUC: 62.3501%)
+
+	Train Epoch: 4 	Loss: 0.850079 Acc@1: 0.795697 (ε = 0.70, δ = 2e-05) for α = 19.0
+Epoch  5 :
+
+Test set: Average loss: 0.9438, Accuracy: 12890/16281 (79.1720%, ROC AUC: 62.3895%)
+
+	Train Epoch: 5 	Loss: 0.868827 Acc@1: 0.794902 (ε = 0.72, δ = 2e-05) for α = 19.0
+Epoch  6 :
+
+Test set: Average loss: 0.8122, Accuracy: 12955/16281 (79.5713%, ROC AUC: 62.3186%)
+
+	Train Epoch: 6 	Loss: 0.859393 Acc@1: 0.795037 (ε = 0.75, δ = 2e-05) for α = 19.0
+Epoch  7 :
+
+Test set: Average loss: 0.8192, Accuracy: 12997/16281 (79.8292%, ROC AUC: 62.3079%)
+
+	Train Epoch: 7 	Loss: 0.853645 Acc@1: 0.795502 (ε = 0.77, δ = 2e-05) for α = 19.0
+Epoch  8 :
+
+Test set: Average loss: 0.7837, Accuracy: 13010/16281 (79.9091%, ROC AUC: 62.2794%)
+
+	Train Epoch: 8 	Loss: 0.844907 Acc@1: 0.795951 (ε = 0.80, δ = 2e-05) for α = 19.0
+Epoch  9 :
+
+Test set: Average loss: 0.8277, Accuracy: 12992/16281 (79.7985%, ROC AUC: 62.3237%)
+
+	Train Epoch: 9 	Loss: 0.842990 Acc@1: 0.796177 (ε = 0.82, δ = 2e-05) for α = 19.0
+Epoch  10 :
+
+Test set: Average loss: 0.8683, Accuracy: 12955/16281 (79.5713%, ROC AUC: 62.3007%)
+
+	Train Epoch: 10 	Loss: 0.845524 Acc@1: 0.796130 (ε = 0.84, δ = 2e-05) for α = 19.0
+Epoch  11 :
+
+Test set: Average loss: 0.8376, Accuracy: 13007/16281 (79.8907%, ROC AUC: 62.2224%)
+
+	Train Epoch: 11 	Loss: 0.844803 Acc@1: 0.796383 (ε = 0.87, δ = 2e-05) for α = 19.0
+Epoch  12 :
+
+Test set: Average loss: 0.9368, Accuracy: 12916/16281 (79.3317%, ROC AUC: 62.3504%)
+
+	Train Epoch: 12 	Loss: 0.852466 Acc@1: 0.796127 (ε = 0.89, δ = 2e-05) for α = 19.0
+Epoch  13 :
+
+Test set: Average loss: 0.9519, Accuracy: 12905/16281 (79.2642%, ROC AUC: 62.3421%)
+
+	Train Epoch: 13 	Loss: 0.860118 Acc@1: 0.795859 (ε = 0.92, δ = 2e-05) for α = 19.0
+Epoch  14 :
+
+Test set: Average loss: 0.8366, Accuracy: 12987/16281 (79.7678%, ROC AUC: 62.3665%)
+
+	Train Epoch: 14 	Loss: 0.858435 Acc@1: 0.795989 (ε = 0.94, δ = 2e-05) for α = 19.0
+Epoch  15 :
+
+Test set: Average loss: 0.7993, Accuracy: 12994/16281 (79.8108%, ROC AUC: 62.2869%)
+
+	Train Epoch: 15 	Loss: 0.854492 Acc@1: 0.796130 (ε = 0.97, δ = 2e-05) for α = 19.0
+Epoch  16 :
+
+Test set: Average loss: 0.8021, Accuracy: 13009/16281 (79.9030%, ROC AUC: 62.1137%)
+
+	Train Epoch: 16 	Loss: 0.851221 Acc@1: 0.796312 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  17 :
+
+Test set: Average loss: 0.8689, Accuracy: 12938/16281 (79.4669%, ROC AUC: 62.2952%)
+
+	Train Epoch: 17 	Loss: 0.852258 Acc@1: 0.796215 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  18 :
+
+Test set: Average loss: 0.9639, Accuracy: 12937/16281 (79.4607%, ROC AUC: 62.3181%)
+
+	Train Epoch: 18 	Loss: 0.858462 Acc@1: 0.796126 (ε = 1.03, δ = 2e-05) for α = 18.0
+Epoch  19 :
+
+Test set: Average loss: 1.0900, Accuracy: 12882/16281 (79.1229%, ROC AUC: 62.3843%)
+
+	Train Epoch: 19 	Loss: 0.870651 Acc@1: 0.795868 (ε = 1.05, δ = 2e-05) for α = 18.0
+Epoch  20 :
+
+Test set: Average loss: 0.9209, Accuracy: 12922/16281 (79.3686%, ROC AUC: 62.2937%)
+
+	Train Epoch: 20 	Loss: 0.873162 Acc@1: 0.795759 (ε = 1.08, δ = 2e-05) for α = 18.0
+Epsilon = 1.076344453292244, model accuracy: 0.7936858915300044, roc auc: 0.6229371515029479
+Random forest model attack results: 
+train acc: 0.8808881697231212
+test acc: 0.3109145629875315
+test acc majority: 0.534182479854432
+test acc minority: 0.465817520145568
+total acc: 0.7282031031475723
+experiment_number: 42
+['smote', 0.8, 1.076344453292244, 0.7936858915300044, 0.6229371515029479, 0.465817520145568, 0.534182479854432, 0.3109145629875315]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/smote/test_results-42.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'smote', 'attack_model': 'rf', 'sampling_ratio': 1.0}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing SMOTE oversampling at 1.0
+X_train: (49440, 5), y_train: (49440,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 7.1682, Accuracy: 11904/16281 (73.1159%, ROC AUC: 59.3857%)
+
+	Train Epoch: 1 	Loss: 7.168201 Acc@1: 0.731159 (ε = 0.62, δ = 2e-05) for α = 20.0
+Epoch  2 :
+
+Test set: Average loss: 0.7216, Accuracy: 12839/16281 (78.8588%, ROC AUC: 62.2204%)
+
+	Train Epoch: 2 	Loss: 3.944916 Acc@1: 0.759873 (ε = 0.64, δ = 2e-05) for α = 19.0
+Epoch  3 :
+
+Test set: Average loss: 0.7152, Accuracy: 12861/16281 (78.9939%, ROC AUC: 62.3088%)
+
+	Train Epoch: 3 	Loss: 2.868343 Acc@1: 0.769895 (ε = 0.66, δ = 2e-05) for α = 19.0
+Epoch  4 :
+
+Test set: Average loss: 0.7601, Accuracy: 12809/16281 (78.6745%, ROC AUC: 62.1357%)
+
+	Train Epoch: 4 	Loss: 2.341285 Acc@1: 0.774108 (ε = 0.69, δ = 2e-05) for α = 19.0
+Epoch  5 :
+
+Test set: Average loss: 0.7611, Accuracy: 12849/16281 (78.9202%, ROC AUC: 62.2965%)
+
+	Train Epoch: 5 	Loss: 2.025249 Acc@1: 0.777127 (ε = 0.71, δ = 2e-05) for α = 19.0
+Epoch  6 :
+
+Test set: Average loss: 0.6562, Accuracy: 13037/16281 (80.0749%, ROC AUC: 61.9210%)
+
+	Train Epoch: 6 	Loss: 1.797082 Acc@1: 0.781064 (ε = 0.73, δ = 2e-05) for α = 19.0
+Epoch  7 :
+
+Test set: Average loss: 0.7088, Accuracy: 12887/16281 (79.1536%, ROC AUC: 62.3685%)
+
+	Train Epoch: 7 	Loss: 1.641615 Acc@1: 0.782560 (ε = 0.75, δ = 2e-05) for α = 19.0
+Epoch  8 :
+
+Test set: Average loss: 0.7907, Accuracy: 12845/16281 (78.8956%, ROC AUC: 62.2894%)
+
+	Train Epoch: 8 	Loss: 1.535250 Acc@1: 0.783359 (ε = 0.77, δ = 2e-05) for α = 19.0
+Epoch  9 :
+
+Test set: Average loss: 0.6674, Accuracy: 12969/16281 (79.6573%, ROC AUC: 62.3929%)
+
+	Train Epoch: 9 	Loss: 1.438821 Acc@1: 0.784828 (ε = 0.79, δ = 2e-05) for α = 19.0
+Epoch  10 :
+
+Test set: Average loss: 0.6667, Accuracy: 12927/16281 (79.3993%, ROC AUC: 62.3587%)
+
+	Train Epoch: 10 	Loss: 1.361609 Acc@1: 0.785744 (ε = 0.81, δ = 2e-05) for α = 19.0
+Epoch  11 :
+
+Test set: Average loss: 0.6994, Accuracy: 12916/16281 (79.3317%, ROC AUC: 62.3594%)
+
+	Train Epoch: 11 	Loss: 1.301404 Acc@1: 0.786433 (ε = 0.83, δ = 2e-05) for α = 19.0
+Epoch  12 :
+
+Test set: Average loss: 0.7975, Accuracy: 12859/16281 (78.9816%, ROC AUC: 62.3367%)
+
+	Train Epoch: 12 	Loss: 1.259410 Acc@1: 0.786715 (ε = 0.85, δ = 2e-05) for α = 19.0
+Epoch  13 :
+
+Test set: Average loss: 0.6582, Accuracy: 12913/16281 (79.3133%, ROC AUC: 62.3832%)
+
+	Train Epoch: 13 	Loss: 1.213162 Acc@1: 0.787208 (ε = 0.87, δ = 2e-05) for α = 19.0
+Epoch  14 :
+
+Test set: Average loss: 0.7221, Accuracy: 12901/16281 (79.2396%, ROC AUC: 62.3619%)
+
+	Train Epoch: 14 	Loss: 1.178083 Acc@1: 0.787579 (ε = 0.90, δ = 2e-05) for α = 19.0
+Epoch  15 :
+
+Test set: Average loss: 1.1165, Accuracy: 12762/16281 (78.3858%, ROC AUC: 61.9557%)
+
+	Train Epoch: 15 	Loss: 1.173981 Acc@1: 0.787331 (ε = 0.92, δ = 2e-05) for α = 19.0
+Epoch  16 :
+
+Test set: Average loss: 0.7066, Accuracy: 12919/16281 (79.3502%, ROC AUC: 62.3266%)
+
+	Train Epoch: 16 	Loss: 1.144771 Acc@1: 0.787717 (ε = 0.94, δ = 2e-05) for α = 19.0
+Epoch  17 :
+
+Test set: Average loss: 0.8104, Accuracy: 12835/16281 (78.8342%, ROC AUC: 62.2492%)
+
+	Train Epoch: 17 	Loss: 1.125104 Acc@1: 0.787753 (ε = 0.96, δ = 2e-05) for α = 19.0
+Epoch  18 :
+
+Test set: Average loss: 0.8422, Accuracy: 12814/16281 (78.7052%, ROC AUC: 62.1648%)
+
+	Train Epoch: 18 	Loss: 1.109389 Acc@1: 0.787714 (ε = 0.98, δ = 2e-05) for α = 19.0
+Epoch  19 :
+
+Test set: Average loss: 0.7854, Accuracy: 12828/16281 (78.7912%, ROC AUC: 62.2121%)
+
+	Train Epoch: 19 	Loss: 1.092338 Acc@1: 0.787725 (ε = 1.00, δ = 2e-05) for α = 19.0
+Epoch  20 :
+
+Test set: Average loss: 0.8003, Accuracy: 12851/16281 (78.9325%, ROC AUC: 62.3046%)
+
+	Train Epoch: 20 	Loss: 1.077735 Acc@1: 0.787805 (ε = 1.02, δ = 2e-05) for α = 19.0
+Epsilon = 1.0214171673019345, model accuracy: 0.7893249800380812, roc auc: 0.6230455780354254
+Random forest model attack results: 
+train acc: 0.8802588996763754
+test acc: 0.3151526319022173
+test acc majority: 0.534182479854432
+test acc minority: 0.465817520145568
+total acc: 0.7402656685077829
+experiment_number: 43
+['smote', 1.0, 1.0214171673019345, 0.7893249800380812, 0.6230455780354254, 0.465817520145568, 0.534182479854432, 0.3151526319022173]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/smote/test_results-43.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'equal', 'attack_model': 'rf', 'sampling_ratio': 0.35}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing over and under sampling at 0.35
+X_train: (32567, 5), y_train: (32567,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.8699, Accuracy: 12902/16281 (79.2457%, ROC AUC: 57.6337%)
+
+	Train Epoch: 1 	Loss: 0.869886 Acc@1: 0.792457 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.8210, Accuracy: 13012/16281 (79.9214%, ROC AUC: 61.1740%)
+
+	Train Epoch: 2 	Loss: 0.845438 Acc@1: 0.795836 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.8134, Accuracy: 13007/16281 (79.8907%, ROC AUC: 61.7375%)
+
+	Train Epoch: 3 	Loss: 0.834747 Acc@1: 0.796859 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.7966, Accuracy: 13013/16281 (79.9275%, ROC AUC: 61.6449%)
+
+	Train Epoch: 4 	Loss: 0.825222 Acc@1: 0.797463 (ε = 0.77, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.8609, Accuracy: 12990/16281 (79.7863%, ROC AUC: 61.0226%)
+
+	Train Epoch: 5 	Loss: 0.832350 Acc@1: 0.797543 (ε = 0.80, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.8276, Accuracy: 13009/16281 (79.9030%, ROC AUC: 62.1048%)
+
+	Train Epoch: 6 	Loss: 0.831565 Acc@1: 0.797791 (ε = 0.83, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.8002, Accuracy: 13015/16281 (79.9398%, ROC AUC: 62.0301%)
+
+	Train Epoch: 7 	Loss: 0.827082 Acc@1: 0.798020 (ε = 0.86, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.8519, Accuracy: 12923/16281 (79.3747%, ROC AUC: 62.2708%)
+
+	Train Epoch: 8 	Loss: 0.830186 Acc@1: 0.797486 (ε = 0.90, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.8133, Accuracy: 13013/16281 (79.9275%, ROC AUC: 61.4115%)
+
+	Train Epoch: 9 	Loss: 0.828314 Acc@1: 0.797685 (ε = 0.93, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.8524, Accuracy: 13008/16281 (79.8968%, ROC AUC: 61.8762%)
+
+	Train Epoch: 10 	Loss: 0.830727 Acc@1: 0.797813 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.8091, Accuracy: 13033/16281 (80.0504%, ROC AUC: 60.7376%)
+
+	Train Epoch: 11 	Loss: 0.828756 Acc@1: 0.798058 (ε = 0.99, δ = 2e-05) for α = 17.0
+Epoch  12 :
+
+Test set: Average loss: 0.7918, Accuracy: 13022/16281 (79.9828%, ROC AUC: 60.6934%)
+
+	Train Epoch: 12 	Loss: 0.825673 Acc@1: 0.798205 (ε = 1.02, δ = 2e-05) for α = 17.0
+Epoch  13 :
+
+Test set: Average loss: 0.8507, Accuracy: 12952/16281 (79.5529%, ROC AUC: 62.1270%)
+
+	Train Epoch: 13 	Loss: 0.827601 Acc@1: 0.798000 (ε = 1.05, δ = 2e-05) for α = 17.0
+Epoch  14 :
+
+Test set: Average loss: 0.8420, Accuracy: 13014/16281 (79.9337%, ROC AUC: 61.7028%)
+
+	Train Epoch: 14 	Loss: 0.828631 Acc@1: 0.798095 (ε = 1.08, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.7848, Accuracy: 12969/16281 (79.6573%, ROC AUC: 59.5464%)
+
+	Train Epoch: 15 	Loss: 0.825709 Acc@1: 0.797994 (ε = 1.11, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.8522, Accuracy: 13014/16281 (79.9337%, ROC AUC: 61.8824%)
+
+	Train Epoch: 16 	Loss: 0.827362 Acc@1: 0.798078 (ε = 1.14, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.8482, Accuracy: 12946/16281 (79.5160%, ROC AUC: 61.3576%)
+
+	Train Epoch: 17 	Loss: 0.828589 Acc@1: 0.797906 (ε = 1.17, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8544, Accuracy: 13008/16281 (79.8968%, ROC AUC: 61.9660%)
+
+	Train Epoch: 18 	Loss: 0.830026 Acc@1: 0.797965 (ε = 1.20, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.8001, Accuracy: 13005/16281 (79.8784%, ROC AUC: 61.6936%)
+
+	Train Epoch: 19 	Loss: 0.828451 Acc@1: 0.798008 (ε = 1.22, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.8319, Accuracy: 12997/16281 (79.8292%, ROC AUC: 61.8859%)
+
+	Train Epoch: 20 	Loss: 0.828623 Acc@1: 0.798022 (ε = 1.25, δ = 2e-05) for α = 17.0
+Epsilon = 1.2533627450540332, model accuracy: 0.798292488176402, roc auc: 0.618858940123588
+Random forest model attack results: 
+train acc: 0.8630208493260049
+test acc: 0.3149069467477428
+test acc majority: 0.5638159604886925
+test acc minority: 0.43618403951130746
+total acc: 0.6803349164755977
+experiment_number: 31
+['equal', 0.35, 1.2533627450540332, 0.798292488176402, 0.618858940123588, 0.43618403951130746, 0.5638159604886925, 0.3149069467477428]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/equal/test_results-31.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'equal', 'attack_model': 'rf', 'sampling_ratio': 0.4}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing over and under sampling at 0.4
+X_train: (32596, 5), y_train: (32596,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 1.2639, Accuracy: 12519/16281 (76.8933%, ROC AUC: 59.7484%)
+
+	Train Epoch: 1 	Loss: 1.263919 Acc@1: 0.768933 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.9544, Accuracy: 12838/16281 (78.8527%, ROC AUC: 59.7111%)
+
+	Train Epoch: 2 	Loss: 1.109178 Acc@1: 0.778730 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.9482, Accuracy: 12974/16281 (79.6880%, ROC AUC: 62.0897%)
+
+	Train Epoch: 3 	Loss: 1.055519 Acc@1: 0.784780 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.8702, Accuracy: 12990/16281 (79.7863%, ROC AUC: 62.2080%)
+
+	Train Epoch: 4 	Loss: 1.009200 Acc@1: 0.788050 (ε = 0.77, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.9168, Accuracy: 12949/16281 (79.5344%, ROC AUC: 62.2766%)
+
+	Train Epoch: 5 	Loss: 0.990722 Acc@1: 0.789509 (ε = 0.80, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.7989, Accuracy: 13017/16281 (79.9521%, ROC AUC: 61.0863%)
+
+	Train Epoch: 6 	Loss: 0.958746 Acc@1: 0.791178 (ε = 0.83, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.8847, Accuracy: 13023/16281 (79.9889%, ROC AUC: 61.8557%)
+
+	Train Epoch: 7 	Loss: 0.948167 Acc@1: 0.792422 (ε = 0.86, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 1.0961, Accuracy: 12873/16281 (79.0676%, ROC AUC: 62.3751%)
+
+	Train Epoch: 8 	Loss: 0.966656 Acc@1: 0.792204 (ε = 0.90, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 1.0028, Accuracy: 12944/16281 (79.5037%, ROC AUC: 62.2744%)
+
+	Train Epoch: 9 	Loss: 0.970670 Acc@1: 0.792519 (ε = 0.93, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.8737, Accuracy: 13007/16281 (79.8907%, ROC AUC: 57.8583%)
+
+	Train Epoch: 10 	Loss: 0.960969 Acc@1: 0.793158 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.9178, Accuracy: 12989/16281 (79.7801%, ROC AUC: 60.8749%)
+
+	Train Epoch: 11 	Loss: 0.957049 Acc@1: 0.793580 (ε = 0.99, δ = 2e-05) for α = 17.0
+Epoch  12 :
+
+Test set: Average loss: 0.8121, Accuracy: 13027/16281 (80.0135%, ROC AUC: 61.7012%)
+
+	Train Epoch: 12 	Loss: 0.944969 Acc@1: 0.794126 (ε = 1.02, δ = 2e-05) for α = 17.0
+Epoch  13 :
+
+Test set: Average loss: 0.8467, Accuracy: 13022/16281 (79.9828%, ROC AUC: 62.0852%)
+
+	Train Epoch: 13 	Loss: 0.937409 Acc@1: 0.794565 (ε = 1.05, δ = 2e-05) for α = 17.0
+Epoch  14 :
+
+Test set: Average loss: 0.9396, Accuracy: 12927/16281 (79.3993%, ROC AUC: 62.3857%)
+
+	Train Epoch: 14 	Loss: 0.937566 Acc@1: 0.794524 (ε = 1.08, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.8671, Accuracy: 12988/16281 (79.7740%, ROC AUC: 59.0301%)
+
+	Train Epoch: 15 	Loss: 0.932871 Acc@1: 0.794738 (ε = 1.11, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.8261, Accuracy: 13013/16281 (79.9275%, ROC AUC: 61.0972%)
+
+	Train Epoch: 16 	Loss: 0.926195 Acc@1: 0.795022 (ε = 1.14, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.8049, Accuracy: 12987/16281 (79.7678%, ROC AUC: 59.9689%)
+
+	Train Epoch: 17 	Loss: 0.919058 Acc@1: 0.795178 (ε = 1.17, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8772, Accuracy: 12956/16281 (79.5774%, ROC AUC: 62.2149%)
+
+	Train Epoch: 18 	Loss: 0.916732 Acc@1: 0.795211 (ε = 1.19, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.9202, Accuracy: 13001/16281 (79.8538%, ROC AUC: 62.3061%)
+
+	Train Epoch: 19 	Loss: 0.916917 Acc@1: 0.795386 (ε = 1.22, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.9505, Accuracy: 12942/16281 (79.4914%, ROC AUC: 62.3203%)
+
+	Train Epoch: 20 	Loss: 0.918594 Acc@1: 0.795363 (ε = 1.25, δ = 2e-05) for α = 17.0
+Epsilon = 1.2522937105819358, model accuracy: 0.794914317302377, roc auc: 0.6232025565702966
+Random forest model attack results: 
+train acc: 0.8692170818505338
+test acc: 0.3096861372151588
+test acc majority: 0.578892643618404
+test acc minority: 0.421107356381596
+total acc: 0.6828365079689833
+experiment_number: 32
+['equal', 0.4, 1.2522937105819358, 0.794914317302377, 0.6232025565702966, 0.421107356381596, 0.578892643618404, 0.3096861372151588]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/equal/test_results-32.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'equal', 'attack_model': 'rf', 'sampling_ratio': 0.6}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing over and under sampling at 0.6
+X_train: (32930, 5), y_train: (32930,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.9089, Accuracy: 12713/16281 (78.0849%, ROC AUC: 61.7587%)
+
+	Train Epoch: 1 	Loss: 0.908860 Acc@1: 0.780849 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.8583, Accuracy: 12721/16281 (78.1340%, ROC AUC: 61.7908%)
+
+	Train Epoch: 2 	Loss: 0.883594 Acc@1: 0.781095 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.8741, Accuracy: 12740/16281 (78.2507%, ROC AUC: 61.8672%)
+
+	Train Epoch: 3 	Loss: 0.880419 Acc@1: 0.781565 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.7223, Accuracy: 12814/16281 (78.7052%, ROC AUC: 61.9762%)
+
+	Train Epoch: 4 	Loss: 0.840887 Acc@1: 0.782937 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 0.8320, Accuracy: 12757/16281 (78.3551%, ROC AUC: 61.9086%)
+
+	Train Epoch: 5 	Loss: 0.839102 Acc@1: 0.783060 (ε = 0.80, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.9337, Accuracy: 12743/16281 (78.2691%, ROC AUC: 61.8793%)
+
+	Train Epoch: 6 	Loss: 0.854867 Acc@1: 0.782999 (ε = 0.83, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.8440, Accuracy: 12748/16281 (78.2999%, ROC AUC: 61.8814%)
+
+	Train Epoch: 7 	Loss: 0.853321 Acc@1: 0.782999 (ε = 0.86, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.7092, Accuracy: 12904/16281 (79.2580%, ROC AUC: 61.9250%)
+
+	Train Epoch: 8 	Loss: 0.835307 Acc@1: 0.784196 (ε = 0.89, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.8462, Accuracy: 12765/16281 (78.4043%, ROC AUC: 61.9228%)
+
+	Train Epoch: 9 	Loss: 0.836521 Acc@1: 0.784179 (ε = 0.92, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 1.0590, Accuracy: 12730/16281 (78.1893%, ROC AUC: 61.8270%)
+
+	Train Epoch: 10 	Loss: 0.858773 Acc@1: 0.783951 (ε = 0.96, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.8340, Accuracy: 12796/16281 (78.5947%, ROC AUC: 62.0744%)
+
+	Train Epoch: 11 	Loss: 0.856517 Acc@1: 0.784132 (ε = 0.99, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.8268, Accuracy: 12858/16281 (78.9755%, ROC AUC: 62.2519%)
+
+	Train Epoch: 12 	Loss: 0.854044 Acc@1: 0.784601 (ε = 1.02, δ = 2e-05) for α = 17.0
+Epoch  13 :
+
+Test set: Average loss: 0.8393, Accuracy: 12783/16281 (78.5148%, ROC AUC: 62.0222%)
+
+	Train Epoch: 13 	Loss: 0.852908 Acc@1: 0.784643 (ε = 1.05, δ = 2e-05) for α = 17.0
+Epoch  14 :
+
+Test set: Average loss: 0.8862, Accuracy: 12780/16281 (78.4964%, ROC AUC: 62.0281%)
+
+	Train Epoch: 14 	Loss: 0.855286 Acc@1: 0.784666 (ε = 1.08, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.9077, Accuracy: 12761/16281 (78.3797%, ROC AUC: 61.9517%)
+
+	Train Epoch: 15 	Loss: 0.858783 Acc@1: 0.784608 (ε = 1.10, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.8703, Accuracy: 12767/16281 (78.4166%, ROC AUC: 61.9668%)
+
+	Train Epoch: 16 	Loss: 0.859501 Acc@1: 0.784580 (ε = 1.13, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.7811, Accuracy: 12845/16281 (78.8956%, ROC AUC: 62.2445%)
+
+	Train Epoch: 17 	Loss: 0.854892 Acc@1: 0.784838 (ε = 1.16, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8584, Accuracy: 12785/16281 (78.5271%, ROC AUC: 62.0302%)
+
+	Train Epoch: 18 	Loss: 0.855086 Acc@1: 0.784862 (ε = 1.19, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 1.0372, Accuracy: 12754/16281 (78.3367%, ROC AUC: 61.9235%)
+
+	Train Epoch: 19 	Loss: 0.864671 Acc@1: 0.784783 (ε = 1.22, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.7106, Accuracy: 13016/16281 (79.9459%, ROC AUC: 60.9476%)
+
+	Train Epoch: 20 	Loss: 0.856969 Acc@1: 0.785517 (ε = 1.25, δ = 2e-05) for α = 17.0
+Epsilon = 1.24683307558548, model accuracy: 0.799459492660156, roc auc: 0.6094759520175741
+Random forest model attack results: 
+train acc: 0.8649559672031583
+test acc: 0.32448866777224983
+test acc majority: 0.5152066545360021
+test acc minority: 0.4847933454639979
+total acc: 0.686147406067749
+experiment_number: 33
+['equal', 0.6, 1.24683307558548, 0.799459492660156, 0.6094759520175741, 0.4847933454639979, 0.5152066545360021, 0.32448866777224983]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/equal/test_results-33.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'equal', 'attack_model': 'rf', 'sampling_ratio': 0.8}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing over and under sampling at 0.8
+X_train: (33377, 5), y_train: (33377,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 9.4886, Accuracy: 12749/16281 (78.3060%, ROC AUC: 61.8944%)
+
+	Train Epoch: 1 	Loss: 9.488624 Acc@1: 0.783060 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 0.9778, Accuracy: 12790/16281 (78.5578%, ROC AUC: 61.9695%)
+
+	Train Epoch: 2 	Loss: 5.233190 Acc@1: 0.784319 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 1.0609, Accuracy: 12611/16281 (77.4584%, ROC AUC: 59.5167%)
+
+	Train Epoch: 3 	Loss: 3.842442 Acc@1: 0.781074 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 1.0329, Accuracy: 12644/16281 (77.6611%, ROC AUC: 59.9547%)
+
+	Train Epoch: 4 	Loss: 3.140062 Acc@1: 0.779958 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 1.0117, Accuracy: 12786/16281 (78.5333%, ROC AUC: 61.9534%)
+
+	Train Epoch: 5 	Loss: 2.714394 Acc@1: 0.781033 (ε = 0.79, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.9642, Accuracy: 12790/16281 (78.5578%, ROC AUC: 61.9246%)
+
+	Train Epoch: 6 	Loss: 2.422703 Acc@1: 0.781791 (ε = 0.82, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.9574, Accuracy: 12787/16281 (78.5394%, ROC AUC: 61.9035%)
+
+	Train Epoch: 7 	Loss: 2.213371 Acc@1: 0.782305 (ε = 0.85, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.9153, Accuracy: 12788/16281 (78.5455%, ROC AUC: 61.7908%)
+
+	Train Epoch: 8 	Loss: 2.051107 Acc@1: 0.782699 (ε = 0.89, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 0.9043, Accuracy: 12785/16281 (78.5271%, ROC AUC: 61.7967%)
+
+	Train Epoch: 9 	Loss: 1.923689 Acc@1: 0.782985 (ε = 0.92, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.9524, Accuracy: 12791/16281 (78.5640%, ROC AUC: 61.8658%)
+
+	Train Epoch: 10 	Loss: 1.826561 Acc@1: 0.783250 (ε = 0.95, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 1.0520, Accuracy: 12787/16281 (78.5394%, ROC AUC: 62.0113%)
+
+	Train Epoch: 11 	Loss: 1.756150 Acc@1: 0.783445 (ε = 0.98, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.9620, Accuracy: 12793/16281 (78.5763%, ROC AUC: 62.0085%)
+
+	Train Epoch: 12 	Loss: 1.689970 Acc@1: 0.783638 (ε = 1.01, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.9802, Accuracy: 12787/16281 (78.5394%, ROC AUC: 61.9754%)
+
+	Train Epoch: 13 	Loss: 1.635369 Acc@1: 0.783773 (ε = 1.04, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.8796, Accuracy: 12798/16281 (78.6070%, ROC AUC: 61.7323%)
+
+	Train Epoch: 14 	Loss: 1.581387 Acc@1: 0.783937 (ε = 1.07, δ = 2e-05) for α = 17.0
+Epoch  15 :
+
+Test set: Average loss: 0.9345, Accuracy: 12797/16281 (78.6008%, ROC AUC: 61.9348%)
+
+	Train Epoch: 15 	Loss: 1.538264 Acc@1: 0.784076 (ε = 1.10, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.8720, Accuracy: 12791/16281 (78.5640%, ROC AUC: 61.7760%)
+
+	Train Epoch: 16 	Loss: 1.496625 Acc@1: 0.784173 (ε = 1.13, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.9822, Accuracy: 12788/16281 (78.5455%, ROC AUC: 61.9884%)
+
+	Train Epoch: 17 	Loss: 1.466368 Acc@1: 0.784249 (ε = 1.15, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 1.0526, Accuracy: 12776/16281 (78.4718%, ROC AUC: 61.9581%)
+
+	Train Epoch: 18 	Loss: 1.443382 Acc@1: 0.784275 (ε = 1.18, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.8939, Accuracy: 12787/16281 (78.5394%, ROC AUC: 61.8766%)
+
+	Train Epoch: 19 	Loss: 1.414462 Acc@1: 0.784334 (ε = 1.21, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.9360, Accuracy: 12789/16281 (78.5517%, ROC AUC: 61.9655%)
+
+	Train Epoch: 20 	Loss: 1.390540 Acc@1: 0.784393 (ε = 1.24, δ = 2e-05) for α = 17.0
+Epsilon = 1.2375145518770798, model accuracy: 0.7855168601437258, roc auc: 0.6196546534961518
+Random forest model attack results: 
+train acc: 0.8682625760254067
+test acc: 0.3239358761746821
+test acc majority: 0.5113075123472836
+test acc minority: 0.48869248765271645
+total acc: 0.6897982198235934
+experiment_number: 34
+['equal', 0.8, 1.2375145518770798, 0.7855168601437258, 0.6196546534961518, 0.48869248765271645, 0.5113075123472836, 0.3239358761746821]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/equal/test_results-34.json
+{'dataset': 'adult', 'batch_size': 128, 'epochs': 20, 'noise_multiplier': 1.3, 'max_grad_norm': 10.0, 'lr': 0.00025, 'delta': 2e-05, 'disable_dp': False, 'sampling_type': 'equal', 'attack_model': 'rf', 'sampling_ratio': 1.0}
+X_train: (32561, 5), y_train: (32561,), X_test: (16281, 5), y_test: (16281,)
+Performing over and under sampling at 1.0
+X_train: (33836, 5), y_train: (33836,), X_test: (16281, 5), y_test: (16281,)
+Training beginning...
+Epoch  1 :
+
+Test set: Average loss: 0.9841, Accuracy: 12757/16281 (78.3551%, ROC AUC: 61.9176%)
+
+	Train Epoch: 1 	Loss: 0.984112 Acc@1: 0.783551 (ε = 0.67, δ = 2e-05) for α = 18.0
+Epoch  2 :
+
+Test set: Average loss: 1.3533, Accuracy: 12378/16281 (76.0273%, ROC AUC: 56.6492%)
+
+	Train Epoch: 2 	Loss: 1.168683 Acc@1: 0.771912 (ε = 0.70, δ = 2e-05) for α = 18.0
+Epoch  3 :
+
+Test set: Average loss: 0.9418, Accuracy: 12670/16281 (77.8208%, ROC AUC: 60.6429%)
+
+	Train Epoch: 3 	Loss: 1.093056 Acc@1: 0.774011 (ε = 0.73, δ = 2e-05) for α = 18.0
+Epoch  4 :
+
+Test set: Average loss: 0.9586, Accuracy: 12757/16281 (78.3551%, ROC AUC: 61.9266%)
+
+	Train Epoch: 4 	Loss: 1.059451 Acc@1: 0.776396 (ε = 0.76, δ = 2e-05) for α = 18.0
+Epoch  5 :
+
+Test set: Average loss: 1.0109, Accuracy: 12740/16281 (78.2507%, ROC AUC: 61.8672%)
+
+	Train Epoch: 5 	Loss: 1.049733 Acc@1: 0.777618 (ε = 0.79, δ = 2e-05) for α = 18.0
+Epoch  6 :
+
+Test set: Average loss: 0.9488, Accuracy: 12749/16281 (78.3060%, ROC AUC: 61.9034%)
+
+	Train Epoch: 6 	Loss: 1.032919 Acc@1: 0.778525 (ε = 0.82, δ = 2e-05) for α = 18.0
+Epoch  7 :
+
+Test set: Average loss: 0.9878, Accuracy: 12749/16281 (78.3060%, ROC AUC: 61.9034%)
+
+	Train Epoch: 7 	Loss: 1.026468 Acc@1: 0.779173 (ε = 0.85, δ = 2e-05) for α = 18.0
+Epoch  8 :
+
+Test set: Average loss: 0.9163, Accuracy: 12750/16281 (78.3121%, ROC AUC: 61.8895%)
+
+	Train Epoch: 8 	Loss: 1.012698 Acc@1: 0.779666 (ε = 0.88, δ = 2e-05) for α = 18.0
+Epoch  9 :
+
+Test set: Average loss: 1.0229, Accuracy: 12645/16281 (77.6672%, ROC AUC: 60.2281%)
+
+	Train Epoch: 9 	Loss: 1.013837 Acc@1: 0.779334 (ε = 0.91, δ = 2e-05) for α = 18.0
+Epoch  10 :
+
+Test set: Average loss: 0.9138, Accuracy: 12760/16281 (78.3736%, ROC AUC: 61.9387%)
+
+	Train Epoch: 10 	Loss: 1.003837 Acc@1: 0.779774 (ε = 0.94, δ = 2e-05) for α = 18.0
+Epoch  11 :
+
+Test set: Average loss: 0.8808, Accuracy: 12780/16281 (78.4964%, ROC AUC: 61.9652%)
+
+	Train Epoch: 11 	Loss: 0.992656 Acc@1: 0.780246 (ε = 0.97, δ = 2e-05) for α = 18.0
+Epoch  12 :
+
+Test set: Average loss: 0.7821, Accuracy: 12843/16281 (78.8834%, ROC AUC: 62.1108%)
+
+	Train Epoch: 12 	Loss: 0.975107 Acc@1: 0.780961 (ε = 1.00, δ = 2e-05) for α = 18.0
+Epoch  13 :
+
+Test set: Average loss: 0.8412, Accuracy: 12839/16281 (78.8588%, ROC AUC: 62.2294%)
+
+	Train Epoch: 13 	Loss: 0.964805 Acc@1: 0.781548 (ε = 1.03, δ = 2e-05) for α = 18.0
+Epoch  14 :
+
+Test set: Average loss: 0.7817, Accuracy: 12853/16281 (78.9448%, ROC AUC: 62.1869%)
+
+	Train Epoch: 14 	Loss: 0.951725 Acc@1: 0.782112 (ε = 1.06, δ = 2e-05) for α = 18.0
+Epoch  15 :
+
+Test set: Average loss: 0.8283, Accuracy: 12844/16281 (78.8895%, ROC AUC: 62.2495%)
+
+	Train Epoch: 15 	Loss: 0.943499 Acc@1: 0.782565 (ε = 1.09, δ = 2e-05) for α = 17.0
+Epoch  16 :
+
+Test set: Average loss: 0.8357, Accuracy: 12841/16281 (78.8711%, ROC AUC: 62.2195%)
+
+	Train Epoch: 16 	Loss: 0.936761 Acc@1: 0.782949 (ε = 1.12, δ = 2e-05) for α = 17.0
+Epoch  17 :
+
+Test set: Average loss: 0.7955, Accuracy: 12855/16281 (78.9571%, ROC AUC: 62.1859%)
+
+	Train Epoch: 17 	Loss: 0.928449 Acc@1: 0.783338 (ε = 1.15, δ = 2e-05) for α = 17.0
+Epoch  18 :
+
+Test set: Average loss: 0.8983, Accuracy: 12802/16281 (78.6315%, ROC AUC: 62.1165%)
+
+	Train Epoch: 18 	Loss: 0.926774 Acc@1: 0.783504 (ε = 1.17, δ = 2e-05) for α = 17.0
+Epoch  19 :
+
+Test set: Average loss: 0.8158, Accuracy: 12845/16281 (78.8956%, ROC AUC: 62.2086%)
+
+	Train Epoch: 19 	Loss: 0.920934 Acc@1: 0.783791 (ε = 1.20, δ = 2e-05) for α = 17.0
+Epoch  20 :
+
+Test set: Average loss: 0.9131, Accuracy: 12808/16281 (78.6684%, ROC AUC: 62.1317%)
+
+	Train Epoch: 20 	Loss: 0.920544 Acc@1: 0.783935 (ε = 1.23, δ = 2e-05) for α = 17.0
+Epsilon = 1.2301864846706776, model accuracy: 0.7866838646274799, roc auc: 0.6213165872835155
+Random forest model attack results: 
+train acc: 0.8697245537297553
+test acc: 0.3281125238007493
+test acc majority: 0.48921237327787886
+test acc minority: 0.5107876267221212
+total acc: 0.6937765628429475
+experiment_number: 35
+['equal', 1.0, 1.2301864846706776, 0.7866838646274799, 0.6213165872835155, 0.5107876267221212, 0.48921237327787886, 0.3281125238007493]
+dumped results to /homes/al5217/adversarial-robustness-toolbox/examples/adult/equal/test_results-35.json
+Thu Jun  3 16:21:10 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.73.01    Driver Version: 460.73.01    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            On   | 00000000:00:0E.0 Off |                    0 |
+| N/A   50C    P0    28W /  70W |      0MiB / 15109MiB |     28%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+ 16:21:10 up 28 days,  8:40,  2 users,  load average: 26.69, 24.47, 23.07
