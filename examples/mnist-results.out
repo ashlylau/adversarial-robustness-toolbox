@@ -1,0 +1,923 @@
+Python 2.7.18
+Python 3.8.5
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	 Loss: 0.421443
+
+Test set: Average loss: 0.0018, Accuracy: 33811/35000 (96.60%)
+
+Train Epoch: 2 	 Loss: 0.095485
+
+Test set: Average loss: 0.0011, Accuracy: 34290/35000 (97.97%)
+
+Train Epoch: 3 	 Loss: 0.066935
+
+Test set: Average loss: 0.0011, Accuracy: 34226/35000 (97.79%)
+
+Train Epoch: 4 	 Loss: 0.054967
+
+Test set: Average loss: 0.0007, Accuracy: 34517/35000 (98.62%)
+
+Train Epoch: 5 	 Loss: 0.045108
+
+Test set: Average loss: 0.0007, Accuracy: 34516/35000 (98.62%)
+
+Train Epoch: 6 	 Loss: 0.038175
+
+Test set: Average loss: 0.0007, Accuracy: 34586/35000 (98.82%)
+
+Train Epoch: 7 	 Loss: 0.033267
+
+Test set: Average loss: 0.0008, Accuracy: 34497/35000 (98.56%)
+
+Train Epoch: 8 	 Loss: 0.030150
+
+Test set: Average loss: 0.0007, Accuracy: 34578/35000 (98.79%)
+
+Train Epoch: 9 	 Loss: 0.026117
+
+Test set: Average loss: 0.0006, Accuracy: 34596/35000 (98.85%)
+
+Train Epoch: 10 	 Loss: 0.021198
+
+Test set: Average loss: 0.0009, Accuracy: 34419/35000 (98.34%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9834
+Base model train accuracy:  0.9879142857142857
+Random forest model attack results: 
+train acc: 0.6510285714285714
+test acc: 0.6564571428571429
+total acc: 0.6537428571428572
+nn model attack results: 
+train acc: 0.6555428571428571
+test acc: 0.6799428571428572
+total acc: 0.6677428571428572
+epsilon, acc, train acc, mia
+[-1, 0.9834, 0.9879142857142857, 0.6677428571428572]
+
+Test set: Average loss: 0.0009, Accuracy: 34419/35000 (98.34%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.193056 
+Moments Accountant gives: (ε = 2970682.64, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0120, Accuracy: 26181/35000 (74.80%)
+
+Train Epoch: 2 	Loss: 0.621995 
+Moments Accountant gives: (ε = 5941250.14, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0085, Accuracy: 30005/35000 (85.73%)
+
+Train Epoch: 3 	Loss: 0.510791 
+Moments Accountant gives: (ε = 8911817.65, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0064, Accuracy: 31557/35000 (90.16%)
+
+Train Epoch: 4 	Loss: 0.451569 
+Moments Accountant gives: (ε = 11882385.16, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0055, Accuracy: 32197/35000 (91.99%)
+
+Train Epoch: 5 	Loss: 0.416388 
+Moments Accountant gives: (ε = 14852952.66, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0052, Accuracy: 32425/35000 (92.64%)
+
+Train Epoch: 6 	Loss: 0.387921 
+Moments Accountant gives: (ε = 17823520.17, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0046, Accuracy: 32747/35000 (93.56%)
+
+Train Epoch: 7 	Loss: 0.369623 
+Moments Accountant gives: (ε = 20794087.68, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0045, Accuracy: 32841/35000 (93.83%)
+
+Train Epoch: 8 	Loss: 0.350276 
+Moments Accountant gives: (ε = 23764655.18, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0040, Accuracy: 33063/35000 (94.47%)
+
+Train Epoch: 9 	Loss: 0.338670 
+Moments Accountant gives: (ε = 26735222.69, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0037, Accuracy: 33242/35000 (94.98%)
+
+Train Epoch: 10 	Loss: 0.325199 
+Moments Accountant gives: (ε = 29705790.20, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0036, Accuracy: 33308/35000 (95.17%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9516571428571429
+Base model train accuracy:  0.9383714285714285
+Random forest model attack results: 
+train acc: 0.6642857142857143
+test acc: 0.6840571428571429
+total acc: 0.6741714285714285
+nn model attack results: 
+train acc: 0.6745142857142857
+test acc: 0.6941142857142857
+total acc: 0.6843142857142858
+epsilon, acc, train acc, mia
+[29705790.19638422, 0.9516571428571429, 0.9383714285714285, 0.6843142857142858]
+
+Test set: Average loss: 0.0036, Accuracy: 33308/35000 (95.17%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.122754 
+Moments Accountant gives: (ε = 82522.64, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0091, Accuracy: 28884/35000 (82.53%)
+
+Train Epoch: 2 	Loss: 0.527939 
+Moments Accountant gives: (ε = 164930.15, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0074, Accuracy: 30855/35000 (88.16%)
+
+Train Epoch: 3 	Loss: 0.460433 
+Moments Accountant gives: (ε = 247337.65, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0059, Accuracy: 31855/35000 (91.01%)
+
+Train Epoch: 4 	Loss: 0.424485 
+Moments Accountant gives: (ε = 329745.16, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0052, Accuracy: 32363/35000 (92.47%)
+
+Train Epoch: 5 	Loss: 0.398135 
+Moments Accountant gives: (ε = 412152.67, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0051, Accuracy: 32578/35000 (93.08%)
+
+Train Epoch: 6 	Loss: 0.379235 
+Moments Accountant gives: (ε = 494560.18, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0045, Accuracy: 32867/35000 (93.91%)
+
+Train Epoch: 7 	Loss: 0.362632 
+Moments Accountant gives: (ε = 576967.69, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0041, Accuracy: 33033/35000 (94.38%)
+
+Train Epoch: 8 	Loss: 0.345994 
+Moments Accountant gives: (ε = 659375.20, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0039, Accuracy: 33197/35000 (94.85%)
+
+Train Epoch: 9 	Loss: 0.332289 
+Moments Accountant gives: (ε = 741782.70, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0039, Accuracy: 33235/35000 (94.96%)
+
+Train Epoch: 10 	Loss: 0.322139 
+Moments Accountant gives: (ε = 824190.21, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0038, Accuracy: 33263/35000 (95.04%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9503714285714285
+Base model train accuracy:  0.9396
+Random forest model attack results: 
+train acc: 0.6709714285714286
+test acc: 0.6800571428571429
+total acc: 0.6755142857142857
+nn model attack results: 
+train acc: 0.7361142857142857
+test acc: 0.6441714285714286
+total acc: 0.6901428571428572
+epsilon, acc, train acc, mia
+[824190.212026909, 0.9503714285714285, 0.9396, 0.6901428571428572]
+
+Test set: Average loss: 0.0038, Accuracy: 33263/35000 (95.04%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.271887 
+Moments Accountant gives: (ε = 1274.95, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0141, Accuracy: 25566/35000 (73.05%)
+
+Train Epoch: 2 	Loss: 0.665432 
+Moments Accountant gives: (ε = 2434.78, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0101, Accuracy: 29510/35000 (84.31%)
+
+Train Epoch: 3 	Loss: 0.570925 
+Moments Accountant gives: (ε = 3594.60, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0079, Accuracy: 30970/35000 (88.49%)
+
+Train Epoch: 4 	Loss: 0.518494 
+Moments Accountant gives: (ε = 4754.42, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0071, Accuracy: 31571/35000 (90.20%)
+
+Train Epoch: 5 	Loss: 0.479075 
+Moments Accountant gives: (ε = 5914.25, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0062, Accuracy: 32072/35000 (91.63%)
+
+Train Epoch: 6 	Loss: 0.446882 
+Moments Accountant gives: (ε = 7074.07, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0054, Accuracy: 32427/35000 (92.65%)
+
+Train Epoch: 7 	Loss: 0.416973 
+Moments Accountant gives: (ε = 8233.89, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0053, Accuracy: 32597/35000 (93.13%)
+
+Train Epoch: 8 	Loss: 0.394124 
+Moments Accountant gives: (ε = 9393.72, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0048, Accuracy: 32865/35000 (93.90%)
+
+Train Epoch: 9 	Loss: 0.372954 
+Moments Accountant gives: (ε = 10553.54, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0044, Accuracy: 33013/35000 (94.32%)
+
+Train Epoch: 10 	Loss: 0.355864 
+Moments Accountant gives: (ε = 11713.36, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0046, Accuracy: 32977/35000 (94.22%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9422
+Base model train accuracy:  0.9323714285714285
+Random forest model attack results: 
+train acc: 0.6716
+test acc: 0.6878857142857142
+total acc: 0.6797428571428571
+nn model attack results: 
+train acc: 0.6765714285714286
+test acc: 0.6869714285714286
+total acc: 0.6817714285714286
+epsilon, acc, train acc, mia
+[11713.362689094403, 0.9422, 0.9323714285714285, 0.6817714285714286]
+
+Test set: Average loss: 0.0046, Accuracy: 32977/35000 (94.22%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.315459 
+Moments Accountant gives: (ε = 80.38, δ = 1e-05) for α = 1.20
+
+Test set: Average loss: 0.0132, Accuracy: 25932/35000 (74.09%)
+
+Train Epoch: 2 	Loss: 0.734757 
+Moments Accountant gives: (ε = 103.20, δ = 1e-05) for α = 1.20
+
+Test set: Average loss: 0.0112, Accuracy: 29017/35000 (82.91%)
+
+Train Epoch: 3 	Loss: 0.661477 
+Moments Accountant gives: (ε = 126.02, δ = 1e-05) for α = 1.20
+
+Test set: Average loss: 0.0090, Accuracy: 30482/35000 (87.09%)
+
+Train Epoch: 4 	Loss: 0.589728 
+Moments Accountant gives: (ε = 148.84, δ = 1e-05) for α = 1.20
+
+Test set: Average loss: 0.0085, Accuracy: 30963/35000 (88.47%)
+
+Train Epoch: 5 	Loss: 0.540833 
+Moments Accountant gives: (ε = 167.67, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0074, Accuracy: 31600/35000 (90.29%)
+
+Train Epoch: 6 	Loss: 0.501210 
+Moments Accountant gives: (ε = 178.18, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0068, Accuracy: 31941/35000 (91.26%)
+
+Train Epoch: 7 	Loss: 0.465495 
+Moments Accountant gives: (ε = 188.68, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0061, Accuracy: 32289/35000 (92.25%)
+
+Train Epoch: 8 	Loss: 0.435741 
+Moments Accountant gives: (ε = 199.19, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0057, Accuracy: 32435/35000 (92.67%)
+
+Train Epoch: 9 	Loss: 0.415978 
+Moments Accountant gives: (ε = 209.70, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0055, Accuracy: 32565/35000 (93.04%)
+
+Train Epoch: 10 	Loss: 0.397263 
+Moments Accountant gives: (ε = 220.21, δ = 1e-05) for α = 1.10
+
+Test set: Average loss: 0.0051, Accuracy: 32737/35000 (93.53%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9353428571428571
+Base model train accuracy:  0.9288571428571428
+Random forest model attack results: 
+train acc: 0.6758857142857143
+test acc: 0.6634857142857142
+total acc: 0.6696857142857143
+nn model attack results: 
+train acc: 0.7233142857142857
+test acc: 0.6377142857142857
+total acc: 0.6805142857142857
+epsilon, acc, train acc, mia
+[220.20826708212002, 0.9353428571428571, 0.9288571428571428, 0.6805142857142857]
+
+Test set: Average loss: 0.0051, Accuracy: 32737/35000 (93.53%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.257681 
+Moments Accountant gives: (ε = 26.12, δ = 1e-05) for α = 1.60
+
+Test set: Average loss: 0.0124, Accuracy: 26396/35000 (75.42%)
+
+Train Epoch: 2 	Loss: 0.707202 
+Moments Accountant gives: (ε = 31.63, δ = 1e-05) for α = 1.50
+
+Test set: Average loss: 0.0090, Accuracy: 29839/35000 (85.25%)
+
+Train Epoch: 3 	Loss: 0.594570 
+Moments Accountant gives: (ε = 35.93, δ = 1e-05) for α = 1.50
+
+Test set: Average loss: 0.0076, Accuracy: 31119/35000 (88.91%)
+
+Train Epoch: 4 	Loss: 0.521368 
+Moments Accountant gives: (ε = 40.19, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0064, Accuracy: 31854/35000 (91.01%)
+
+Train Epoch: 5 	Loss: 0.467977 
+Moments Accountant gives: (ε = 43.05, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0056, Accuracy: 32273/35000 (92.21%)
+
+Train Epoch: 6 	Loss: 0.438463 
+Moments Accountant gives: (ε = 45.90, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0053, Accuracy: 32486/35000 (92.82%)
+
+Train Epoch: 7 	Loss: 0.414644 
+Moments Accountant gives: (ε = 48.75, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0047, Accuracy: 32831/35000 (93.80%)
+
+Train Epoch: 8 	Loss: 0.394673 
+Moments Accountant gives: (ε = 51.60, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0052, Accuracy: 32748/35000 (93.57%)
+
+Train Epoch: 9 	Loss: 0.373881 
+Moments Accountant gives: (ε = 54.46, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0048, Accuracy: 32911/35000 (94.03%)
+
+Train Epoch: 10 	Loss: 0.354197 
+Moments Accountant gives: (ε = 57.31, δ = 1e-05) for α = 1.40
+
+Test set: Average loss: 0.0040, Accuracy: 33187/35000 (94.82%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9482
+Base model train accuracy:  0.9368857142857143
+Random forest model attack results: 
+train acc: 0.6610285714285714
+test acc: 0.6904
+total acc: 0.6757142857142857
+nn model attack results: 
+train acc: 0.6348571428571429
+test acc: 0.7169142857142857
+total acc: 0.6758857142857143
+epsilon, acc, train acc, mia
+[57.30788934290534, 0.9482, 0.9368857142857143, 0.6758857142857143]
+
+Test set: Average loss: 0.0040, Accuracy: 33187/35000 (94.82%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.174862 
+Moments Accountant gives: (ε = 5.98, δ = 1e-05) for α = 3.20
+
+Test set: Average loss: 0.0118, Accuracy: 27045/35000 (77.27%)
+
+Train Epoch: 2 	Loss: 0.577318 
+Moments Accountant gives: (ε = 6.58, δ = 1e-05) for α = 3.10
+
+Test set: Average loss: 0.0084, Accuracy: 30416/35000 (86.90%)
+
+Train Epoch: 3 	Loss: 0.504223 
+Moments Accountant gives: (ε = 7.01, δ = 1e-05) for α = 3.00
+
+Test set: Average loss: 0.0067, Accuracy: 31532/35000 (90.09%)
+
+Train Epoch: 4 	Loss: 0.476470 
+Moments Accountant gives: (ε = 7.39, δ = 1e-05) for α = 2.90
+
+Test set: Average loss: 0.0064, Accuracy: 32007/35000 (91.45%)
+
+Train Epoch: 5 	Loss: 0.443263 
+Moments Accountant gives: (ε = 7.72, δ = 1e-05) for α = 2.90
+
+Test set: Average loss: 0.0055, Accuracy: 32431/35000 (92.66%)
+
+Train Epoch: 6 	Loss: 0.415801 
+Moments Accountant gives: (ε = 8.03, δ = 1e-05) for α = 2.80
+
+Test set: Average loss: 0.0051, Accuracy: 32616/35000 (93.19%)
+
+Train Epoch: 7 	Loss: 0.411719 
+Moments Accountant gives: (ε = 8.30, δ = 1e-05) for α = 2.80
+
+Test set: Average loss: 0.0054, Accuracy: 32623/35000 (93.21%)
+
+Train Epoch: 8 	Loss: 0.412051 
+Moments Accountant gives: (ε = 8.57, δ = 1e-05) for α = 2.80
+
+Test set: Average loss: 0.0053, Accuracy: 32768/35000 (93.62%)
+
+Train Epoch: 9 	Loss: 0.395053 
+Moments Accountant gives: (ε = 8.82, δ = 1e-05) for α = 2.70
+
+Test set: Average loss: 0.0049, Accuracy: 32829/35000 (93.80%)
+
+Train Epoch: 10 	Loss: 0.380815 
+Moments Accountant gives: (ε = 9.05, δ = 1e-05) for α = 2.70
+
+Test set: Average loss: 0.0048, Accuracy: 33010/35000 (94.31%)
+
+Training membership inference attack model
+Base model test accuracy:  0.9431428571428572
+Base model train accuracy:  0.9334857142857143
+Random forest model attack results: 
+train acc: 0.6678285714285714
+test acc: 0.6817142857142857
+total acc: 0.6747714285714286
+nn model attack results: 
+train acc: 0.6942857142857143
+test acc: 0.6616571428571428
+total acc: 0.6779714285714286
+epsilon, acc, train acc, mia
+[9.050904511641258, 0.9431428571428572, 0.9334857142857143, 0.6779714285714286]
+
+Test set: Average loss: 0.0048, Accuracy: 33010/35000 (94.31%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.221351 
+Moments Accountant gives: (ε = 1.06, δ = 1e-05) for α = 12.30
+
+Test set: Average loss: 0.0121, Accuracy: 26238/35000 (74.97%)
+
+Train Epoch: 2 	Loss: 0.644216 
+Moments Accountant gives: (ε = 1.09, δ = 1e-05) for α = 12.20
+
+Test set: Average loss: 0.0082, Accuracy: 30476/35000 (87.07%)
+
+Train Epoch: 3 	Loss: 0.586779 
+Moments Accountant gives: (ε = 1.12, δ = 1e-05) for α = 12.10
+
+Test set: Average loss: 0.0078, Accuracy: 31272/35000 (89.35%)
+
+Train Epoch: 4 	Loss: 0.604953 
+Moments Accountant gives: (ε = 1.14, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0074, Accuracy: 31703/35000 (90.58%)
+
+Train Epoch: 5 	Loss: 0.559878 
+Moments Accountant gives: (ε = 1.16, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0081, Accuracy: 31632/35000 (90.38%)
+
+Train Epoch: 6 	Loss: 0.588322 
+Moments Accountant gives: (ε = 1.19, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0092, Accuracy: 31525/35000 (90.07%)
+
+Train Epoch: 7 	Loss: 0.625053 
+Moments Accountant gives: (ε = 1.21, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0088, Accuracy: 31704/35000 (90.58%)
+
+Train Epoch: 8 	Loss: 0.651694 
+Moments Accountant gives: (ε = 1.23, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0108, Accuracy: 31261/35000 (89.32%)
+
+Train Epoch: 9 	Loss: 0.704302 
+Moments Accountant gives: (ε = 1.26, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0101, Accuracy: 31614/35000 (90.33%)
+
+Train Epoch: 10 	Loss: 0.717515 
+Moments Accountant gives: (ε = 1.28, δ = 1e-05) for α = 12.00
+
+Test set: Average loss: 0.0121, Accuracy: 31139/35000 (88.97%)
+
+Training membership inference attack model
+Base model test accuracy:  0.8896857142857143
+Base model train accuracy:  0.8990285714285714
+Random forest model attack results: 
+train acc: 0.6670857142857143
+test acc: 0.6748000000000001
+total acc: 0.6709428571428572
+nn model attack results: 
+train acc: 0.772
+test acc: 0.5017142857142858
+total acc: 0.6368571428571429
+epsilon, acc, train acc, mia
+[1.2817801101512396, 0.8896857142857143, 0.8990285714285714, 0.6368571428571429]
+
+Test set: Average loss: 0.0121, Accuracy: 31139/35000 (88.97%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.102577 
+Moments Accountant gives: (ε = 0.45, δ = 1e-05) for α = 27.90
+
+Test set: Average loss: 0.0078, Accuracy: 29912/35000 (85.46%)
+
+Train Epoch: 2 	Loss: 0.597318 
+Moments Accountant gives: (ε = 0.46, δ = 1e-05) for α = 27.80
+
+Test set: Average loss: 0.0088, Accuracy: 30739/35000 (87.83%)
+
+Train Epoch: 3 	Loss: 0.730806 
+Moments Accountant gives: (ε = 0.48, δ = 1e-05) for α = 27.70
+
+Test set: Average loss: 0.0123, Accuracy: 30027/35000 (85.79%)
+
+Train Epoch: 4 	Loss: 0.871469 
+Moments Accountant gives: (ε = 0.49, δ = 1e-05) for α = 27.70
+
+Test set: Average loss: 0.0135, Accuracy: 30465/35000 (87.04%)
+
+Train Epoch: 5 	Loss: 1.013740 
+Moments Accountant gives: (ε = 0.51, δ = 1e-05) for α = 27.60
+
+Test set: Average loss: 0.0170, Accuracy: 29545/35000 (84.41%)
+
+Train Epoch: 6 	Loss: 1.034510 
+Moments Accountant gives: (ε = 0.52, δ = 1e-05) for α = 27.60
+
+Test set: Average loss: 0.0185, Accuracy: 29959/35000 (85.60%)
+
+Train Epoch: 7 	Loss: 1.133845 
+Moments Accountant gives: (ε = 0.54, δ = 1e-05) for α = 27.50
+
+Test set: Average loss: 0.0156, Accuracy: 30324/35000 (86.64%)
+
+Train Epoch: 8 	Loss: 1.331658 
+Moments Accountant gives: (ε = 0.55, δ = 1e-05) for α = 27.50
+
+Test set: Average loss: 0.0240, Accuracy: 29379/35000 (83.94%)
+
+Train Epoch: 9 	Loss: 1.496641 
+Moments Accountant gives: (ε = 0.57, δ = 1e-05) for α = 27.50
+
+Test set: Average loss: 0.0230, Accuracy: 29422/35000 (84.06%)
+
+Train Epoch: 10 	Loss: 1.543521 
+Moments Accountant gives: (ε = 0.58, δ = 1e-05) for α = 27.50
+
+Test set: Average loss: 0.0224, Accuracy: 29604/35000 (84.58%)
+
+Training membership inference attack model
+Base model test accuracy:  0.8458285714285714
+Base model train accuracy:  0.8406285714285714
+Random forest model attack results: 
+train acc: 0.6395428571428572
+test acc: 0.6552571428571429
+total acc: 0.6474
+nn model attack results: 
+train acc: 0.6518857142857143
+test acc: 0.5958857142857144
+total acc: 0.6238857142857143
+epsilon, acc, train acc, mia
+[0.5822989825758819, 0.8458285714285714, 0.8406285714285714, 0.6238857142857143]
+
+Test set: Average loss: 0.0224, Accuracy: 29604/35000 (84.58%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 1.387644 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0203, Accuracy: 24161/35000 (69.03%)
+
+Train Epoch: 2 	Loss: 1.527048 
+Moments Accountant gives: (ε = 0.14, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0378, Accuracy: 22974/35000 (65.64%)
+
+Train Epoch: 3 	Loss: 2.802421 
+Moments Accountant gives: (ε = 0.15, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0563, Accuracy: 23760/35000 (67.89%)
+
+Train Epoch: 4 	Loss: 4.426447 
+Moments Accountant gives: (ε = 0.16, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0847, Accuracy: 22392/35000 (63.98%)
+
+Train Epoch: 5 	Loss: 4.937859 
+Moments Accountant gives: (ε = 0.17, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0939, Accuracy: 23128/35000 (66.08%)
+
+Train Epoch: 6 	Loss: 5.370376 
+Moments Accountant gives: (ε = 0.18, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0898, Accuracy: 22656/35000 (64.73%)
+
+Train Epoch: 7 	Loss: 5.856486 
+Moments Accountant gives: (ε = 0.19, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0973, Accuracy: 22665/35000 (64.76%)
+
+Train Epoch: 8 	Loss: 6.553247 
+Moments Accountant gives: (ε = 0.20, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1095, Accuracy: 23269/35000 (66.48%)
+
+Train Epoch: 9 	Loss: 7.306535 
+Moments Accountant gives: (ε = 0.22, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1039, Accuracy: 21718/35000 (62.05%)
+
+Train Epoch: 10 	Loss: 5.310975 
+Moments Accountant gives: (ε = 0.23, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0990, Accuracy: 21603/35000 (61.72%)
+
+Training membership inference attack model
+Base model test accuracy:  0.6172285714285715
+Base model train accuracy:  0.6338
+Random forest model attack results: 
+train acc: 0.6079428571428571
+test acc: 0.6124571428571428
+total acc: 0.6102
+nn model attack results: 
+train acc: 0.5984
+test acc: 0.5892
+total acc: 0.5938
+epsilon, acc, train acc, mia
+[0.22624552761722594, 0.6172285714285715, 0.6338, 0.5938]
+
+Test set: Average loss: 0.0990, Accuracy: 21603/35000 (61.72%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 2.184374 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0484, Accuracy: 17475/35000 (49.93%)
+
+Train Epoch: 2 	Loss: 5.028734 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0789, Accuracy: 18176/35000 (51.93%)
+
+Train Epoch: 3 	Loss: 4.172405 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0483, Accuracy: 12923/35000 (36.92%)
+
+Train Epoch: 4 	Loss: 3.819947 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0881, Accuracy: 10396/35000 (29.70%)
+
+Train Epoch: 5 	Loss: 4.293451 
+Moments Accountant gives: (ε = 0.14, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0567, Accuracy: 6407/35000 (18.31%)
+
+Train Epoch: 6 	Loss: 2.848428 
+Moments Accountant gives: (ε = 0.14, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0511, Accuracy: 4335/35000 (12.39%)
+
+Train Epoch: 7 	Loss: 3.497805 
+Moments Accountant gives: (ε = 0.14, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0683, Accuracy: 4911/35000 (14.03%)
+
+Train Epoch: 8 	Loss: 3.826348 
+Moments Accountant gives: (ε = 0.15, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1145, Accuracy: 5776/35000 (16.50%)
+
+Train Epoch: 9 	Loss: 4.260663 
+Moments Accountant gives: (ε = 0.15, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0616, Accuracy: 3732/35000 (10.66%)
+
+Train Epoch: 10 	Loss: 5.303066 
+Moments Accountant gives: (ε = 0.15, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0761, Accuracy: 3700/35000 (10.57%)
+
+Training membership inference attack model
+Base model test accuracy:  0.10571428571428572
+Base model train accuracy:  0.11117142857142857
+Random forest model attack results: 
+train acc: 0.7014285714285714
+test acc: 0.3211428571428572
+total acc: 0.5112857142857142
+nn model attack results: 
+train acc: 0.7030285714285714
+test acc: 0.3286285714285714
+total acc: 0.5158285714285714
+epsilon, acc, train acc, mia
+[0.15470013045720776, 0.10571428571428572, 0.11117142857142857, 0.5158285714285714]
+
+Test set: Average loss: 0.0761, Accuracy: 3700/35000 (10.57%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 3.552252 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0725, Accuracy: 6678/35000 (19.08%)
+
+Train Epoch: 2 	Loss: 3.638956 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.0551, Accuracy: 5662/35000 (16.18%)
+
+Train Epoch: 3 	Loss: 4.719292 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1260, Accuracy: 6294/35000 (17.98%)
+
+Train Epoch: 4 	Loss: 5.944536 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1236, Accuracy: 3912/35000 (11.18%)
+
+Train Epoch: 5 	Loss: 8.528194 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1397, Accuracy: 3747/35000 (10.71%)
+
+Train Epoch: 6 	Loss: 11.966224 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.3062, Accuracy: 3343/35000 (9.55%)
+
+Train Epoch: 7 	Loss: 15.550191 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1603, Accuracy: 3746/35000 (10.70%)
+
+Train Epoch: 8 	Loss: 12.463914 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1812, Accuracy: 3700/35000 (10.57%)
+
+Train Epoch: 9 	Loss: 13.611680 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1842, Accuracy: 4419/35000 (12.63%)
+
+Train Epoch: 10 	Loss: 18.935824 
+Moments Accountant gives: (ε = 0.14, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1277, Accuracy: 3873/35000 (11.07%)
+
+Training membership inference attack model
+Base model test accuracy:  0.11065714285714286
+Base model train accuracy:  0.10617142857142857
+Random forest model attack results: 
+train acc: 0.502
+test acc: 0.5152
+total acc: 0.5086
+nn model attack results: 
+train acc: 0.6050857142857143
+test acc: 0.40777142857142856
+total acc: 0.5064285714285715
+epsilon, acc, train acc, mia
+[0.13621412499560714, 0.11065714285714286, 0.10617142857142857, 0.5064285714285715]
+
+Test set: Average loss: 0.1277, Accuracy: 3873/35000 (11.07%)
+
+35000
+35000
+(35000, 1, 28, 28)
+(35000, 1, 28, 28)
+Train Epoch: 1 	Loss: 7.999033 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1103, Accuracy: 4077/35000 (11.65%)
+
+Train Epoch: 2 	Loss: 9.715481 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.2281, Accuracy: 3377/35000 (9.65%)
+
+Train Epoch: 3 	Loss: 12.179983 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.1664, Accuracy: 3631/35000 (10.37%)
+
+Train Epoch: 4 	Loss: 13.793479 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.2579, Accuracy: 3594/35000 (10.27%)
+
+Train Epoch: 5 	Loss: 25.776730 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.3608, Accuracy: 3339/35000 (9.54%)
+
+Train Epoch: 6 	Loss: 48.678530 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 1.4427, Accuracy: 3477/35000 (9.93%)
+
+Train Epoch: 7 	Loss: 42.626298 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 0.9458, Accuracy: 3575/35000 (10.21%)
+
+Train Epoch: 8 	Loss: 61.049277 
+Moments Accountant gives: (ε = 0.12, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 1.8154, Accuracy: 3565/35000 (10.19%)
+
+Train Epoch: 9 	Loss: 69.268813 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 1.4016, Accuracy: 3567/35000 (10.19%)
+
+Train Epoch: 10 	Loss: 72.941677 
+Moments Accountant gives: (ε = 0.13, δ = 1e-05) for α = 99.00
+
+Test set: Average loss: 1.2242, Accuracy: 3937/35000 (11.25%)
+
+Training membership inference attack model
+Base model test accuracy:  0.11248571428571429
+Base model train accuracy:  0.11125714285714286
+Random forest model attack results: 
+train acc: 0.42125714285714283
+test acc: 0.6122857142857143
+total acc: 0.5167714285714285
+nn model attack results: 
+train acc: 0.5298857142857143
+test acc: 0.5046285714285714
+total acc: 0.5172571428571429
+epsilon, acc, train acc, mia
+[0.12659403033045502, 0.11248571428571429, 0.11125714285714286, 0.5172571428571429]
+
+Test set: Average loss: 1.2246, Accuracy: 3937/35000 (11.25%)
+
+Tue Jun  8 13:14:35 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.73.01    Driver Version: 460.73.01    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            On   | 00000000:00:07.0 Off |                    0 |
+| N/A   46C    P0    28W /  70W |      0MiB / 15109MiB |     12%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+ 13:14:36 up 33 days,  6:50,  2 users,  load average: 2.09, 2.32, 2.43
